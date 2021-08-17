@@ -1,0 +1,249 @@
+True
+11721506816
+0
+9733
+9726
+{'0_0': 0, '1_1': 1}
+SqueezeNet(
+  (features): Sequential(
+    (0): Conv2d(3, 96, kernel_size=(7, 7), stride=(2, 2))
+    (1): ReLU(inplace=True)
+    (2): MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=True)
+    (3): Fire(
+      (squeeze): Conv2d(96, 16, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(16, 64, kernel_size=(1, 1), stride=(1, 1), groups=16)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(16, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (4): Fire(
+      (squeeze): Conv2d(128, 16, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(16, 64, kernel_size=(1, 1), stride=(1, 1), groups=16)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(16, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=16)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (5): Fire(
+      (squeeze): Conv2d(128, 32, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(32, 128, kernel_size=(1, 1), stride=(1, 1), groups=32)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(32, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=32)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (6): MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=True)
+    (7): Fire(
+      (squeeze): Conv2d(256, 32, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(32, 128, kernel_size=(1, 1), stride=(1, 1), groups=32)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(32, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=32)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (8): Fire(
+      (squeeze): Conv2d(256, 48, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(48, 192, kernel_size=(1, 1), stride=(1, 1), groups=48)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(48, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=48)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (9): Fire(
+      (squeeze): Conv2d(384, 48, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(48, 192, kernel_size=(1, 1), stride=(1, 1), groups=48)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(48, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=48)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (10): Fire(
+      (squeeze): Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), groups=64)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=64)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+    (11): MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=True)
+    (12): Fire(
+      (squeeze): Conv2d(512, 64, kernel_size=(1, 1), stride=(1, 1))
+      (squeeze_activation): ReLU(inplace=True)
+      (expand1x1): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), groups=64)
+      (expand1x1_activation): ReLU(inplace=True)
+      (expand3x3): Conv2d(64, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=64)
+      (expand3x3_activation): ReLU(inplace=True)
+    )
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.5, inplace=False)
+    (1): Conv2d(512, 2, kernel_size=(1, 1), stride=(1, 1))
+    (2): ReLU(inplace=True)
+    (3): AdaptiveAvgPool2d(output_size=(1, 1))
+  )
+)
+{'pretrained': True, 'classifier_1': 'conv2d(512,2,ker=1,stri=1,pad=0)', 'cuda': 3, 'train': tensor(0.7072), 'test': tensor(0.6519), 'valid': tensor(0.6740)}
+total_trainable_parameters are : 134850
+one of the best validation acc found
+epoch:[1/38],memory:[0.9135518074035645/10.91650390625], lr:[3e-05]
+train_accuracy:0.690375, train_loss:0.6006999042034149
+val_acc:0.6786644359429678,val_loss:0.6008522137999535
+
+one of the best validation acc found
+epoch:[2/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.693875, train_loss:0.5987423195838928
+val_acc:0.6803385441501936,val_loss:0.600333092113336
+
+epoch:[3/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.6895, train_loss:0.5963315093517303
+val_acc:0.672154019276301,val_loss:0.6069874887665113
+
+epoch:[4/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.689875, train_loss:0.5964135367870331
+val_acc:0.6684337804714838,val_loss:0.6047771635154883
+
+one of the best validation acc found
+epoch:[5/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.6925, train_loss:0.59541556930542
+val_acc:0.6828497052192688,val_loss:0.5982881101469198
+
+epoch:[6/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.69325, train_loss:0.5989693315029144
+val_acc:0.6705729191501936,val_loss:0.5999956329663595
+
+epoch:[7/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.69075, train_loss:0.5932890827655792
+val_acc:0.672619049747785,val_loss:0.6000716884930929
+
+epoch:[8/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.690875, train_loss:0.5951911470890046
+val_acc:0.6770833358168602,val_loss:0.5981075416008631
+
+epoch:[9/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.69325, train_loss:0.5948411483764648
+val_acc:0.673363097012043,val_loss:0.6095406599342823
+
+epoch:[10/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.691625, train_loss:0.5932725205421447
+val_acc:0.6791294664144516,val_loss:0.6009064316749573
+
+epoch:[11/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.689625, train_loss:0.5944478926658631
+val_acc:0.6743861610690752,val_loss:0.6034635851780573
+
+epoch:[12/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.6955, train_loss:0.5919885730743408
+val_acc:0.6688058053453764,val_loss:0.604233592748642
+
+epoch:[13/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.696625, train_loss:0.5931368174552918
+val_acc:0.6783854191501936,val_loss:0.5980425775051117
+
+epoch:[14/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.695375, train_loss:0.5916196534633636
+val_acc:0.6774553582072258,val_loss:0.5938495000203451
+
+epoch:[15/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.69875, train_loss:0.5896806471347809
+val_acc:0.673084077735742,val_loss:0.6037454009056091
+
+epoch:[16/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.69675, train_loss:0.5907124259471893
+val_acc:0.6693638414144516,val_loss:0.5990587038298448
+
+epoch:[17/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.6995, train_loss:0.588224371433258
+val_acc:0.6807105665405592,val_loss:0.6000523443023363
+
+epoch:[18/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.694375, train_loss:0.5876026194095612
+val_acc:0.6673177108168602,val_loss:0.6097059696912766
+
+epoch:[19/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-05]
+train_accuracy:0.699875, train_loss:0.5891600148677826
+val_acc:0.6695498526096344,val_loss:0.6002164669334888
+
+epoch:[20/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.697625, train_loss:0.5857963020801544
+val_acc:0.6680617580811182,val_loss:0.6042728126049042
+
+epoch:[21/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.697, train_loss:0.5860257194042205
+val_acc:0.6695498526096344,val_loss:0.6024874001741409
+
+epoch:[22/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.696, train_loss:0.5874733452796936
+val_acc:0.6709449415405592,val_loss:0.6052297875285149
+
+epoch:[23/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.701, train_loss:0.5849556701183319
+val_acc:0.6729910721381506,val_loss:0.6038771569728851
+
+epoch:[24/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.699, train_loss:0.5851815648078919
+val_acc:0.66796875,val_loss:0.6007929866512617
+
+epoch:[25/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.701, train_loss:0.5848159081935883
+val_acc:0.6718750024835268,val_loss:0.6030289058883985
+
+epoch:[26/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.698875, train_loss:0.584061939239502
+val_acc:0.6668526803453764,val_loss:0.6033104682962099
+
+epoch:[27/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.7005, train_loss:0.585761696100235
+val_acc:0.6728050609429678,val_loss:0.6004592105746269
+
+epoch:[28/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.69675, train_loss:0.5858288435935974
+val_acc:0.6707589303453764,val_loss:0.6019755974411964
+
+epoch:[29/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.697625, train_loss:0.5840422279834747
+val_acc:0.6738281274835268,val_loss:0.6005217408140501
+
+epoch:[30/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.701, train_loss:0.5839197578430175
+val_acc:0.6729910721381506,val_loss:0.6030876735846201
+
+epoch:[31/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.69675, train_loss:0.5869835493564606
+val_acc:0.6742931554714838,val_loss:0.6008406604329745
+
+epoch:[32/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.698375, train_loss:0.5841696727275848
+val_acc:0.6715959832072258,val_loss:0.5997410180668036
+
+epoch:[33/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.697875, train_loss:0.5853295450210572
+val_acc:0.6715029776096344,val_loss:0.6039074634512266
+
+epoch:[34/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.69875, train_loss:0.5848184487819672
+val_acc:0.6746651803453764,val_loss:0.5977625052134196
+
+epoch:[35/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.698625, train_loss:0.5858841314315796
+val_acc:0.6715029776096344,val_loss:0.5996452396114668
+
+epoch:[36/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.697375, train_loss:0.5829889686107635
+val_acc:0.6725260441501936,val_loss:0.6026242052515348
+
+epoch:[37/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.697625, train_loss:0.5863738980293274
+val_acc:0.6748511915405592,val_loss:0.5979333048065504
+
+epoch:[38/38],memory:[0.9150533676147461/10.91650390625], lr:[3e-06]
+train_accuracy:0.696, train_loss:0.5844150505065918
+val_acc:0.6676897332072258,val_loss:0.6071819004913172
+
+correct are 5629/8000
+Train acc: tensor(0.7036)
+correct are 1424/2100
+Test acc: tensor(0.6781)
+correct are 1005/1500
+Validation acc: tensor(0.6700)
+saved
