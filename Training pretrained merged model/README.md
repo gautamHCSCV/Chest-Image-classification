@@ -1,4 +1,11 @@
 
+**Train acc: tensor(0.6892)**
+
+
+**Test acc: tensor(0.6914)**
+
+
+**Validation acc: tensor(0.6947)**
 
 
 
