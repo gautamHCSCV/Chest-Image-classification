@@ -448,16 +448,3 @@ val_acc:0.4324360341151386,val_loss:2.0228548405775384
 
 saved
 model saved
-correct are 51078/120000
-Traceback (most recent call last):
-  File "exlnet_15.py", line 337, in <module>
-    lab_train,pre_train,predict_train,acc_train = model.evaluate(train_loader,name='train')
-  File "exlnet_15.py", line 185, in evaluate
-    self.fpr[name],self.tpr[name],_ = roc_curve(lab,pre[:,1])
-  File "/DATA/kumar156/.local/lib/python3.7/site-packages/sklearn/utils/validation.py", line 63, in inner_f
-    return f(*args, **kwargs)
-  File "/DATA/kumar156/.local/lib/python3.7/site-packages/sklearn/metrics/_ranking.py", line 914, in roc_curve
-    y_true, y_score, pos_label=pos_label, sample_weight=sample_weight)
-  File "/DATA/kumar156/.local/lib/python3.7/site-packages/sklearn/metrics/_ranking.py", line 691, in _binary_clf_curve
-    raise ValueError("{0} format is not supported".format(y_type))
-ValueError: multiclass format is not supported
