@@ -1,0 +1,781 @@
+cuda
+112120
+{'abnormal': 0, 'normal': 1}
+MobileNetV2(
+  (features): Sequential(
+    (0): ConvNormActivation(
+      (0): Conv2d(3, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU6(inplace=True)
+    )
+    (1): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=32, bias=False)
+          (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (2): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(16, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(96, 96, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=96, bias=False)
+          (1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(96, 24, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(24, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (3): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(24, 144, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(144, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(144, 144, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=144, bias=False)
+          (1): BatchNorm2d(144, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(144, 24, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(24, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (4): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(24, 144, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(144, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(144, 144, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=144, bias=False)
+          (1): BatchNorm2d(144, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(144, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (5): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(32, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192, bias=False)
+          (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (6): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(32, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192, bias=False)
+          (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(192, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (7): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(32, 192, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(192, 192, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=192, bias=False)
+          (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(192, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (8): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (9): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (10): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(384, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (11): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(64, 384, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(384, 384, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=384, bias=False)
+          (1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(384, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (12): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(96, 576, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(576, 576, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=576, bias=False)
+          (1): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (13): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(96, 576, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(576, 576, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=576, bias=False)
+          (1): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(576, 96, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (14): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(96, 576, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(576, 576, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=576, bias=False)
+          (1): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(576, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (15): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(160, 960, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(960, 960, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=960, bias=False)
+          (1): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (16): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(160, 960, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(960, 960, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=960, bias=False)
+          (1): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (17): InvertedResidual(
+      (conv): Sequential(
+        (0): ConvNormActivation(
+          (0): Conv2d(160, 960, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (1): ConvNormActivation(
+          (0): Conv2d(960, 960, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=960, bias=False)
+          (1): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): ReLU6(inplace=True)
+        )
+        (2): Conv2d(960, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (3): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (18): ConvNormActivation(
+      (0): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (1): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU6(inplace=True)
+    )
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.2, inplace=False)
+    (1): Linear(in_features=1280, out_features=2, bias=True)
+  )
+)
+Epoch 0/39
+----------
+Loss after 15968 examples: 0.640
+Loss after 31968 examples: 0.599
+Loss after 47968 examples: 0.748
+Loss after 63968 examples: 0.549
+Loss after 79968 examples: 0.625
+Loss after 95968 examples: 0.703
+Train Accuracy tensor(0.6810, dtype=torch.float64)
+Validation Loss is 0.5895066400527954
+Validation Accuracy is 0.7006
+
+Epoch 1/39
+----------
+Loss after 111968 examples: 0.738
+Loss after 127968 examples: 0.713
+Loss after 143968 examples: 0.562
+Loss after 159968 examples: 0.685
+Loss after 175968 examples: 0.532
+Loss after 191968 examples: 0.593
+Train Accuracy tensor(0.6961, dtype=torch.float64)
+Validation Loss is 0.5955598384857178
+Validation Accuracy is 0.6898000000000001
+
+Epoch 2/39
+----------
+Loss after 207968 examples: 0.509
+Loss after 223968 examples: 0.669
+Loss after 239968 examples: 0.767
+Loss after 255968 examples: 0.489
+Loss after 271968 examples: 0.628
+Loss after 287968 examples: 0.652
+Train Accuracy tensor(0.7027, dtype=torch.float64)
+Validation Loss is 0.5805447774887085
+Validation Accuracy is 0.7078
+
+Epoch 3/39
+----------
+Loss after 303968 examples: 0.702
+Loss after 319968 examples: 0.525
+Loss after 335968 examples: 0.555
+Loss after 351968 examples: 0.520
+Loss after 367968 examples: 0.645
+Loss after 383968 examples: 0.598
+Loss after 399968 examples: 0.489
+Train Accuracy tensor(0.7067, dtype=torch.float64)
+Validation Loss is 0.5823851632118225
+Validation Accuracy is 0.7044
+
+Epoch 4/39
+----------
+Loss after 415968 examples: 0.560
+Loss after 431968 examples: 0.581
+Loss after 447968 examples: 0.522
+Loss after 463968 examples: 0.566
+Loss after 479968 examples: 0.663
+Loss after 495968 examples: 0.549
+Train Accuracy tensor(0.7095, dtype=torch.float64)
+Validation Loss is 0.5726920190811158
+Validation Accuracy is 0.7118
+
+Epoch 5/39
+----------
+Loss after 511968 examples: 0.515
+Loss after 527968 examples: 0.621
+Loss after 543968 examples: 0.456
+Loss after 559968 examples: 0.636
+Loss after 575968 examples: 0.584
+Loss after 591968 examples: 0.541
+Train Accuracy tensor(0.7118, dtype=torch.float64)
+Validation Loss is 0.5772811901092529
+Validation Accuracy is 0.7058
+
+Epoch 6/39
+----------
+Loss after 607968 examples: 0.567
+Loss after 623968 examples: 0.469
+Loss after 639968 examples: 0.616
+Loss after 655968 examples: 0.498
+Loss after 671968 examples: 0.500
+Loss after 687968 examples: 0.676
+Train Accuracy tensor(0.7170, dtype=torch.float64)
+Validation Loss is 0.5773622255325317
+Validation Accuracy is 0.7100000000000001
+
+Epoch 7/39
+----------
+Loss after 703968 examples: 0.673
+Loss after 719968 examples: 0.577
+Loss after 735968 examples: 0.502
+Loss after 751968 examples: 0.707
+Loss after 767968 examples: 0.510
+Loss after 783968 examples: 0.500
+Loss after 799968 examples: 0.757
+Train Accuracy tensor(0.7196, dtype=torch.float64)
+Validation Loss is 0.5818986488342285
+Validation Accuracy is 0.7068
+
+Epoch 8/39
+----------
+Loss after 815968 examples: 0.503
+Loss after 831968 examples: 0.662
+Loss after 847968 examples: 0.584
+Loss after 863968 examples: 0.620
+Loss after 879968 examples: 0.601
+Loss after 895968 examples: 0.611
+Train Accuracy tensor(0.7224, dtype=torch.float64)
+Validation Loss is 0.5778521108627319
+Validation Accuracy is 0.7088
+
+Epoch 9/39
+----------
+Loss after 911968 examples: 0.465
+Loss after 927968 examples: 0.505
+Loss after 943968 examples: 0.589
+Loss after 959968 examples: 0.480
+Loss after 975968 examples: 0.563
+Loss after 991968 examples: 0.501
+Train Accuracy tensor(0.7252, dtype=torch.float64)
+Validation Loss is 0.5770570279121399
+Validation Accuracy is 0.7146
+
+Epoch 10/39
+----------
+Loss after 1007968 examples: 0.481
+Loss after 1023968 examples: 0.361
+Loss after 1039968 examples: 0.448
+Loss after 1055968 examples: 0.677
+Loss after 1071968 examples: 0.568
+Loss after 1087968 examples: 0.586
+Train Accuracy tensor(0.7295, dtype=torch.float64)
+Validation Loss is 0.5784337064743043
+Validation Accuracy is 0.7094
+
+Epoch 11/39
+----------
+Loss after 1103968 examples: 0.630
+Loss after 1119968 examples: 0.623
+Loss after 1135968 examples: 0.445
+Loss after 1151968 examples: 0.815
+Loss after 1167968 examples: 0.490
+Loss after 1183968 examples: 0.588
+Loss after 1199968 examples: 0.663
+Train Accuracy tensor(0.7325, dtype=torch.float64)
+Validation Loss is 0.5892107007980346
+Validation Accuracy is 0.7134
+
+Epoch 12/39
+----------
+Loss after 1215968 examples: 0.566
+Loss after 1231968 examples: 0.596
+Loss after 1247968 examples: 0.554
+Loss after 1263968 examples: 0.485
+Loss after 1279968 examples: 0.533
+Loss after 1295968 examples: 0.619
+Train Accuracy tensor(0.7356, dtype=torch.float64)
+Validation Loss is 0.6080777856826782
+Validation Accuracy is 0.6768000000000001
+
+Epoch 13/39
+----------
+Loss after 1311968 examples: 0.573
+Loss after 1327968 examples: 0.664
+Loss after 1343968 examples: 0.607
+Loss after 1359968 examples: 0.640
+Loss after 1375968 examples: 0.548
+Loss after 1391968 examples: 0.513
+Train Accuracy tensor(0.7392, dtype=torch.float64)
+Validation Loss is 0.592950566482544
+Validation Accuracy is 0.7092
+
+Epoch 14/39
+----------
+Loss after 1407968 examples: 0.572
+Loss after 1423968 examples: 0.468
+Loss after 1439968 examples: 0.444
+Loss after 1455968 examples: 0.517
+Loss after 1471968 examples: 0.496
+Loss after 1487968 examples: 0.548
+Train Accuracy tensor(0.7442, dtype=torch.float64)
+Validation Loss is 0.5940293500900269
+Validation Accuracy is 0.7008
+
+Epoch 15/39
+----------
+Loss after 1503968 examples: 0.561
+Loss after 1519968 examples: 0.557
+Loss after 1535968 examples: 0.565
+Loss after 1551968 examples: 0.604
+Loss after 1567968 examples: 0.458
+Loss after 1583968 examples: 0.619
+Loss after 1599968 examples: 0.540
+Train Accuracy tensor(0.7475, dtype=torch.float64)
+Validation Loss is 0.5836080993652344
+Validation Accuracy is 0.7084
+
+Epoch 16/39
+----------
+Loss after 1615968 examples: 0.519
+Loss after 1631968 examples: 0.499
+Loss after 1647968 examples: 0.511
+Loss after 1663968 examples: 0.613
+Loss after 1679968 examples: 0.525
+Loss after 1695968 examples: 0.566
+Train Accuracy tensor(0.7521, dtype=torch.float64)
+Validation Loss is 0.5865339043140412
+Validation Accuracy is 0.7058
+
+Epoch 17/39
+----------
+Loss after 1711968 examples: 0.519
+Loss after 1727968 examples: 0.533
+Loss after 1743968 examples: 0.368
+Loss after 1759968 examples: 0.562
+Loss after 1775968 examples: 0.471
+Loss after 1791968 examples: 0.457
+Train Accuracy tensor(0.7550, dtype=torch.float64)
+Validation Loss is 0.6035380939483642
+Validation Accuracy is 0.7046
+
+Epoch 18/39
+----------
+Loss after 1807968 examples: 0.372
+Loss after 1823968 examples: 0.410
+Loss after 1839968 examples: 0.552
+Loss after 1855968 examples: 0.573
+Loss after 1871968 examples: 0.384
+Loss after 1887968 examples: 0.602
+Train Accuracy tensor(0.7593, dtype=torch.float64)
+Validation Loss is 0.623633683013916
+Validation Accuracy is 0.6932
+
+Epoch 19/39
+----------
+Loss after 1903968 examples: 0.507
+Loss after 1919968 examples: 0.456
+Loss after 1935968 examples: 0.483
+Loss after 1951968 examples: 0.806
+Loss after 1967968 examples: 0.449
+Loss after 1983968 examples: 0.549
+Loss after 1999968 examples: 0.425
+Train Accuracy tensor(0.7638, dtype=torch.float64)
+Validation Loss is 0.603782234954834
+Validation Accuracy is 0.6960000000000001
+
+Epoch 20/39
+----------
+Loss after 2015968 examples: 0.535
+Loss after 2031968 examples: 0.508
+Loss after 2047968 examples: 0.328
+Loss after 2063968 examples: 0.502
+Loss after 2079968 examples: 0.410
+Loss after 2095968 examples: 0.507
+Train Accuracy tensor(0.7693, dtype=torch.float64)
+Validation Loss is 0.6253197870731354
+Validation Accuracy is 0.6846
+
+Epoch 21/39
+----------
+Loss after 2111968 examples: 0.644
+Loss after 2127968 examples: 0.411
+Loss after 2143968 examples: 0.318
+Loss after 2159968 examples: 0.336
+Loss after 2175968 examples: 0.673
+Loss after 2191968 examples: 0.409
+Train Accuracy tensor(0.7749, dtype=torch.float64)
+Validation Loss is 0.6482625009536743
+Validation Accuracy is 0.6924
+
+Epoch 22/39
+----------
+Loss after 2207968 examples: 0.507
+Loss after 2223968 examples: 0.413
+Loss after 2239968 examples: 0.430
+Loss after 2255968 examples: 0.343
+Loss after 2271968 examples: 0.421
+Loss after 2287968 examples: 0.380
+Train Accuracy tensor(0.7785, dtype=torch.float64)
+Validation Loss is 0.6482696970939636
+Validation Accuracy is 0.6960000000000001
+
+Epoch 23/39
+----------
+Loss after 2303968 examples: 0.256
+Loss after 2319968 examples: 0.446
+Loss after 2335968 examples: 0.443
+Loss after 2351968 examples: 0.502
+Loss after 2367968 examples: 0.406
+Loss after 2383968 examples: 0.367
+Loss after 2399968 examples: 0.611
+Train Accuracy tensor(0.7825, dtype=torch.float64)
+Validation Loss is 0.6265493072509766
+Validation Accuracy is 0.6846
+
+Epoch 24/39
+----------
+Loss after 2415968 examples: 0.354
+Loss after 2431968 examples: 0.490
+Loss after 2447968 examples: 0.351
+Loss after 2463968 examples: 0.363
+Loss after 2479968 examples: 0.536
+Loss after 2495968 examples: 0.372
+Train Accuracy tensor(0.7870, dtype=torch.float64)
+Validation Loss is 0.6534632405281067
+Validation Accuracy is 0.6906
+
+Epoch 25/39
+----------
+Loss after 2511968 examples: 0.476
+Loss after 2527968 examples: 0.529
+Loss after 2543968 examples: 0.560
+Loss after 2559968 examples: 0.300
+Loss after 2575968 examples: 0.386
+Loss after 2591968 examples: 0.427
+Train Accuracy tensor(0.7942, dtype=torch.float64)
+Validation Loss is 0.6656030967712402
+Validation Accuracy is 0.6914
+
+Epoch 26/39
+----------
+Loss after 2607968 examples: 0.438
+Loss after 2623968 examples: 0.379
+Loss after 2639968 examples: 0.549
+Loss after 2655968 examples: 0.509
+Loss after 2671968 examples: 0.516
+Loss after 2687968 examples: 0.558
+Train Accuracy tensor(0.8003, dtype=torch.float64)
+Validation Loss is 0.6613183891296387
+Validation Accuracy is 0.6886
+
+Epoch 27/39
+----------
+Loss after 2703968 examples: 0.354
+Loss after 2719968 examples: 0.416
+Loss after 2735968 examples: 0.415
+Loss after 2751968 examples: 0.391
+Loss after 2767968 examples: 0.489
+Loss after 2783968 examples: 0.534
+Loss after 2799968 examples: 0.502
+Train Accuracy tensor(0.8041, dtype=torch.float64)
+Validation Loss is 0.6683644555091858
+Validation Accuracy is 0.679
+
+Epoch 28/39
+----------
+Loss after 2815968 examples: 0.192
+Loss after 2831968 examples: 0.434
+Loss after 2847968 examples: 0.461
+Loss after 2863968 examples: 0.408
+Loss after 2879968 examples: 0.475
+Loss after 2895968 examples: 0.428
+Train Accuracy tensor(0.8090, dtype=torch.float64)
+Validation Loss is 0.7299579534530639
+Validation Accuracy is 0.6696000000000001
+
+Epoch 29/39
+----------
+Loss after 2911968 examples: 0.401
+Loss after 2927968 examples: 0.379
+Loss after 2943968 examples: 0.329
+Loss after 2959968 examples: 0.369
+Loss after 2975968 examples: 0.426
+Loss after 2991968 examples: 0.426
+Train Accuracy tensor(0.8150, dtype=torch.float64)
+Validation Loss is 0.7311963922500611
+Validation Accuracy is 0.6676000000000001
+
+Epoch 30/39
+----------
+Loss after 3007968 examples: 0.415
+Loss after 3023968 examples: 0.448
+Loss after 3039968 examples: 0.342
+Loss after 3055968 examples: 0.577
+Loss after 3071968 examples: 0.404
+Loss after 3087968 examples: 0.330
+Train Accuracy tensor(0.8189, dtype=torch.float64)
+Validation Loss is 0.817709994316101
+Validation Accuracy is 0.6464000000000001
+
+Epoch 31/39
+----------
+Loss after 3103968 examples: 0.414
+Loss after 3119968 examples: 0.473
+Loss after 3135968 examples: 0.489
+Loss after 3151968 examples: 0.279
+Loss after 3167968 examples: 0.426
+Loss after 3183968 examples: 0.606
+Loss after 3199968 examples: 0.335
+Train Accuracy tensor(0.8236, dtype=torch.float64)
+Validation Loss is 0.7951487075805664
+Validation Accuracy is 0.6568
+
+Epoch 32/39
+----------
+Loss after 3215968 examples: 0.476
+Loss after 3231968 examples: 0.407
+Loss after 3247968 examples: 0.233
+Loss after 3263968 examples: 0.328
+Loss after 3279968 examples: 0.385
+Loss after 3295968 examples: 0.512
+Train Accuracy tensor(0.8280, dtype=torch.float64)
+Validation Loss is 0.7623076428413391
+Validation Accuracy is 0.6722
+
+Epoch 33/39
+----------
+Loss after 3311968 examples: 0.409
+Loss after 3327968 examples: 0.341
+Loss after 3343968 examples: 0.406
+Loss after 3359968 examples: 0.373
+Loss after 3375968 examples: 0.438
+Loss after 3391968 examples: 0.362
+Train Accuracy tensor(0.8337, dtype=torch.float64)
+Validation Loss is 0.9619475067138672
+Validation Accuracy is 0.6314000000000001
+
+Epoch 34/39
+----------
+Loss after 3407968 examples: 0.299
+Loss after 3423968 examples: 0.483
+Loss after 3439968 examples: 0.213
+Loss after 3455968 examples: 0.381
+Loss after 3471968 examples: 0.246
+Loss after 3487968 examples: 0.368
+Train Accuracy tensor(0.8369, dtype=torch.float64)
+Validation Loss is 0.7934823341369629
+Validation Accuracy is 0.6584
+
+Epoch 35/39
+----------
+Loss after 3503968 examples: 0.280
+Loss after 3519968 examples: 0.229
+Loss after 3535968 examples: 0.479
+Loss after 3551968 examples: 0.373
+Loss after 3567968 examples: 0.354
+Loss after 3583968 examples: 0.359
+Loss after 3599968 examples: 0.271
+Train Accuracy tensor(0.8435, dtype=torch.float64)
+Validation Loss is 0.748284912443161
+Validation Accuracy is 0.6666000000000001
+
+Epoch 36/39
+----------
+Loss after 3615968 examples: 0.283
+Loss after 3631968 examples: 0.400
+Loss after 3647968 examples: 0.571
+Loss after 3663968 examples: 0.344
+Loss after 3679968 examples: 0.209
+Loss after 3695968 examples: 0.311
+Train Accuracy tensor(0.8488, dtype=torch.float64)
+Validation Loss is 0.835354476070404
+Validation Accuracy is 0.6574
+
+Epoch 37/39
+----------
+Loss after 3711968 examples: 0.379
+Loss after 3727968 examples: 0.732
+Loss after 3743968 examples: 0.485
+Loss after 3759968 examples: 0.414
+Loss after 3775968 examples: 0.480
+Loss after 3791968 examples: 0.434
+Train Accuracy tensor(0.8515, dtype=torch.float64)
+Validation Loss is 1.028585785484314
+Validation Accuracy is 0.5344
+
+Epoch 38/39
+----------
+Loss after 3807968 examples: 0.212
+Loss after 3823968 examples: 0.246
+Loss after 3839968 examples: 0.508
+Loss after 3855968 examples: 0.505
+Loss after 3871968 examples: 0.269
+Loss after 3887968 examples: 0.214
+Train Accuracy tensor(0.8562, dtype=torch.float64)
+Validation Loss is 1.3762175916671753
+Validation Accuracy is 0.5832
+
+Epoch 39/39
+----------
+Loss after 3903968 examples: 0.331
+Loss after 3919968 examples: 0.265
+Loss after 3935968 examples: 0.289
+Loss after 3951968 examples: 0.443
+Loss after 3967968 examples: 0.273
+Loss after 3983968 examples: 0.460
+Loss after 3999968 examples: 0.345
+Train Accuracy tensor(0.8599, dtype=torch.float64)
+Validation Loss is 1.0196303791046142
+Validation Accuracy is 0.627
+
+Training complete in 215m 41s
+Test Loss is 1.0144316872853911
+Test Accuracy is 0.628932584269663
