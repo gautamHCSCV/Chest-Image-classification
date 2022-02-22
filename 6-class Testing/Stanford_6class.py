@@ -53,14 +53,14 @@ df.head()
 mapping = {'Atelectasis': 0, 'Cardiomegaly': 1, 'Consolidation': 2, 'Pleural Effusion': 3, 'No Finding': 4, 'Pneumothorax': 5}
 disease_labels = {j:i for i,j in mapping.items()}
 diseases = ['Consolidation','Cardiomegaly','No Finding','Pleural Effusion','Pneumothorax','Atelectasis']
-disease_labels
+print(disease_labels)
 
 
 # In[7]:
 
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  
-os.environ["CUDA_VISIBLE_DEVICES"]="5"
+os.environ["CUDA_VISIBLE_DEVICES"]="3"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 
@@ -106,7 +106,9 @@ def Evaluate(model):
                     prediction = int(predictions[0])
                     if df[disease_labels[prediction]][i] and df[disease_labels[prediction]][i]== 1:
                         running_corrects += 1
-                    labels.append(mapping[j])
+                        labels.append(prediction)
+                    else:
+                        labels.append(mapping[j])
                     predict_prob = predict_prob.to('cpu')
 
                     pred_labels.extend(list(predictions.numpy()))
