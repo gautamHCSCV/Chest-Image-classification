@@ -152,7 +152,7 @@ squeezenet.classifier = nn.Sequential(
         )
 
 model = squeezenet
-model.load_state_dict(torch.load('saved5/exlnet2_best.pt'))
+model.load_state_dict(torch.load('saved5/exlnet1.pt'))
 model = model.to(device)
 
 
