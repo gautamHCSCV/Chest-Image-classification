@@ -24,6 +24,7 @@ def evaluate(model,loader):
     pred_prob = []
     y_true = []
     y_pred = []
+    label_map = dict(zip(list(range(6)),[0]*6))
     with torch.no_grad():
         for idx,(data,target) in enumerate(test_data):
             data = transformations(data)
@@ -37,16 +38,25 @@ def evaluate(model,loader):
                 tt = t.item()
                 if predicted == tt:
                     flag = 1
+                    label_map[tt] += 1
                     y_true.append(tt)
                     y_pred.append(predicted)
                     pred_prob.extend(scores_prob.cpu().numpy())
             if (flag == 0):
+                min_label = math.inf
+                jdx = 0;
                 for t in target:
                     tt = t.item()
-                    y_true.append(tt)
-                    y_pred.append(predicted)
-                    pred_prob.extend(scores_prob.cpu().numpy())
+                    if (label_map[tt] < min_label):
+                        min_label = label_map[tt]
+                        jdx = tt
+                        
+                label_map[jdx] += 1
+                y_true.append(jdx)
+                y_pred.append(predicted)
+                pred_prob.extend(scores_prob.cpu().numpy())
             # print(f'batch: {idx}',end='\r')
+            # print(label_map)
         
     y_true = np.array(y_true)
     y_pred = np.array(y_pred)
