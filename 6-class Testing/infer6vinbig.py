@@ -6,12 +6,24 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import precision_recall_fscore_support,classification_report,roc_auc_score
 import torchvision.transforms as transforms
 import torchvision
-gpu_id = 3
+from sklearn.preprocessing import label_binarize 
+import math
+gpu_id = 4
 device = f'cuda:{gpu_id}' if torch.cuda.is_available() else "cpu"
 
 with open('../../../dataset/VINBIG_DATA/test_vinbig.pkl','rb') as f:
     test_data = pkl.load(f)
-    
+
+# label_map = dict(zip(list(range(6)),[0]*6))
+# flag = 0
+# for idx,(value,target) in enumerate(test_data):
+#     for tt in target:
+#         if (tt.item() == 4 and flag==0):
+#             print('found at idx ',idx)
+#             flag = 1
+#         label_map[tt.item()] += 1
+# print(label_map)
+        
     
 transformations = transforms.Compose([
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
@@ -24,9 +36,8 @@ def evaluate(model,loader):
     pred_prob = []
     y_true = []
     y_pred = []
-    label_map = dict(zip(list(range(6)),[0]*6))
     with torch.no_grad():
-        for idx,(data,target) in enumerate(test_data):
+        for idx,(data,(target,random_target)) in enumerate(test_data):
             data = transformations(data)
             data = data.to(device)
             scores = model(data)
@@ -38,24 +49,14 @@ def evaluate(model,loader):
                 tt = t.item()
                 if predicted == tt:
                     flag = 1
-                    label_map[tt] += 1
                     y_true.append(tt)
                     y_pred.append(predicted)
-                    pred_prob.extend(scores_prob.cpu().numpy())
             if (flag == 0):
-                min_label = math.inf
-                jdx = 0;
-                for t in target:
-                    tt = t.item()
-                    if (label_map[tt] < min_label):
-                        min_label = label_map[tt]
-                        jdx = tt
-                        
-                label_map[jdx] += 1
-                y_true.append(jdx)
+                y_true.append(random_target)
                 y_pred.append(predicted)
-                pred_prob.extend(scores_prob.cpu().numpy())
-            # print(f'batch: {idx}',end='\r')
+                
+            pred_prob.extend(scores_prob.cpu().numpy())
+            print(f'batch: {idx}',end='\r')
             # print(label_map)
         
     y_true = np.array(y_true)
@@ -87,7 +88,13 @@ print('accuracy: ',accuracy)
 print('precision: ',precision)
 print('recall ',recall)
 print('fscore: ',f_score)
-print('auc: ',roc_auc_score(y_true, pred_prob, multi_class='ovr'))
+auc_class = roc_auc_score(y_true, pred_prob,multi_class='ovr')
+print('auc: ',auc_class)
+aucc = []
+a_b = label_binarize(y_true,classes=[i for i in range(6)])
+for i in range(6):
+    aucc.append(roc_auc_score(a_b[:,i],pred_prob[:,i]))
+print(aucc)
 print(classification_report(y_true,y_pred))
 
 print('shufflenet')
@@ -103,7 +110,13 @@ print('accuracy: ',accuracy)
 print('precision: ',precision)
 print('recall ',recall)
 print('fscore: ',f_score)
-print('auc: ',roc_auc_score(y_true, pred_prob, multi_class='ovr'))
+auc_class = roc_auc_score(y_true, pred_prob,multi_class='ovr')
+print('auc: ',auc_class)
+aucc = []
+a_b = label_binarize(y_true,classes=[i for i in range(6)])
+for i in range(6):
+    aucc.append(roc_auc_score(a_b[:,i],pred_prob[:,i]))
+print(aucc)
 print(classification_report(y_true,y_pred))
 
 # print(accuracy)
