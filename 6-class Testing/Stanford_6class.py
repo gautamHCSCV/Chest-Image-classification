@@ -60,7 +60,7 @@ print(disease_labels)
 
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"  
-os.environ["CUDA_VISIBLE_DEVICES"]="3"
+os.environ["CUDA_VISIBLE_DEVICES"]="2"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 
@@ -117,7 +117,39 @@ def Evaluate(model):
                     break
         print('Accuracy:',running_corrects/total)
         return(np.array(preds), np.array(pred_labels),np.array(labels))
+    
+    
+def ROC_plot(y_probas,labels,name = 'abc.svg'):
+    for c in range(6):
+        fpr = []
+        tpr = []
+        thresholds = np.arange(0.0, 1.01, .01)
 
+        P = list(labels).count(c)
+        N = len(labels) - P
+
+        for thresh in thresholds:
+            FP=0
+            TP=0
+            for i in range(len(labels)):
+                if (y_probas[i][c] > thresh):
+                    if labels[i] == c:
+                        TP = TP + 1
+                    else:
+                        FP = FP + 1
+            fpr.append(FP/float(N))
+            tpr.append(TP/float(P))
+            
+        auc = np.trapz(tpr,fpr)
+        print('\tclass',c,'auc',auc)
+        plt.plot(fpr, tpr, label = 'Class: {}, auc:{:.3f}'.format(c,auc))
+    plt.legend()
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('ROC CURVE')
+    plt.savefig(name, format = 'svg')
+    plt.show()
+    plt.clf()
 
 
 print('ExLNet')
@@ -160,7 +192,7 @@ model = model.to(device)
 
 preds, pred_labels,labels = Evaluate(model)
 print(metrics.precision_recall_fscore_support(np.array(labels), np.array(pred_labels)))
-
+ROC_plot(preds,labels,'exlnet.svg')
 print(metrics.roc_auc_score(np.array(labels), np.array(preds), multi_class='ovr'))
 print(metrics.classification_report(labels,pred_labels))    
     
@@ -174,7 +206,7 @@ squeezenet.classifier[1] = nn.Conv2d(512, 6, kernel_size=(1, 1), stride=(1, 1))
 model = squeezenet
 model.load_state_dict(torch.load('saved5/squeezenet.pt'))
 model = model.to(device)
-
+ROC_plot(preds,labels,'squeezenet.svg')
 
 preds, pred_labels,labels = Evaluate(model)
 print(metrics.precision_recall_fscore_support(np.array(labels), np.array(pred_labels)))
@@ -196,7 +228,7 @@ model.load_state_dict(torch.load('saved5/resnet50.pt'))
 model = model.to(device)
 preds, pred_labels,labels = Evaluate(model)
 print(metrics.precision_recall_fscore_support(np.array(labels), np.array(pred_labels)))
-
+ROC_plot(preds,labels,'resnet50.svg')
 print(metrics.roc_auc_score(np.array(labels), np.array(preds), multi_class='ovr'))
 print(metrics.classification_report(labels,pred_labels))
 
@@ -211,7 +243,7 @@ model.load_state_dict(torch.load('saved5/efficientnet_b4.pt'))
 model = model.to(device)
 preds, pred_labels,labels = Evaluate(model)
 print(metrics.precision_recall_fscore_support(np.array(labels), np.array(pred_labels)))
-
+ROC_plot(preds,labels,'efficientnet.svg')
 print(metrics.roc_auc_score(np.array(labels), np.array(preds), multi_class='ovr'))
 print(metrics.classification_report(labels,pred_labels))
 
@@ -224,7 +256,7 @@ model.load_state_dict(torch.load('saved5/mobilenetv3.pt'))
 model = model.to(device)
 preds, pred_labels,labels = Evaluate(model)
 print(metrics.precision_recall_fscore_support(np.array(labels), np.array(pred_labels)))
-
+ROC_plot(preds,labels,'mobilenetv3.svg')
 print(metrics.roc_auc_score(np.array(labels), np.array(preds), multi_class='ovr'))
 print(metrics.classification_report(labels,pred_labels))
 
