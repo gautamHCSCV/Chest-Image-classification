@@ -206,11 +206,10 @@ squeezenet.classifier[1] = nn.Conv2d(512, 6, kernel_size=(1, 1), stride=(1, 1))
 model = squeezenet
 model.load_state_dict(torch.load('saved5/squeezenet.pt'))
 model = model.to(device)
-ROC_plot(preds,labels,'squeezenet.svg')
 
 preds, pred_labels,labels = Evaluate(model)
 print(metrics.precision_recall_fscore_support(np.array(labels), np.array(pred_labels)))
-
+ROC_plot(preds,labels,'squeezenet.svg')
 print(metrics.roc_auc_score(np.array(labels), np.array(preds), multi_class='ovr'))
 print(metrics.classification_report(labels,pred_labels))
 
