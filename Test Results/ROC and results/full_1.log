@@ -1,0 +1,257 @@
+cuda
+STANFORD DATASET
+223414
+{'abnormal': 0, 'normal': 1}
+Efficient-b4
+Test Loss is 1.0277518439934485
+Test Accuracy is 0.7398685847798258
+(0.19053309778655306, 0.4915329967383048, 0.27461650794443265, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.93      0.77      0.84    201033
+      normal       0.19      0.49      0.27     22381
+
+    accuracy                           0.74    223414
+   macro avg       0.56      0.63      0.56    223414
+weighted avg       0.86      0.74      0.78    223414
+
+
+ classwise accuracy
+[0.76751578 0.491533  ]
+0.689580258561465
+
+mobilenet-v2
+Test Loss is 1.391931591529781
+Test Accuracy is 0.4979589461716813
+(0.1331535507068726, 0.728028238237791, 0.22513143259804766, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.94      0.47      0.63    201033
+      normal       0.13      0.73      0.23     22381
+
+    accuracy                           0.50    223414
+   macro avg       0.54      0.60      0.43    223414
+weighted avg       0.86      0.50      0.59    223414
+
+
+ classwise accuracy
+[0.47234534 0.72802824]
+0.6448919773140995
+
+mobilenet-v3
+Test Loss is 0.9880932596908464
+Test Accuracy is 0.6629709865988702
+(0.16169701309328968, 0.5650328403556588, 0.25143902414776964, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.93      0.67      0.78    201033
+      normal       0.16      0.57      0.25     22381
+
+    accuracy                           0.66    223414
+   macro avg       0.55      0.62      0.52    223414
+weighted avg       0.86      0.66      0.73    223414
+
+
+ classwise accuracy
+[0.67387444 0.56503284]
+0.6644682977045338
+
+shufflenet
+
+Test Loss is 0.8351954907071896
+Test Accuracy is 0.6759379448020267
+(0.13881547593258525, 0.42947142665653903, 0.20981402252684886, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.92      0.70      0.80    201033
+      normal       0.14      0.43      0.21     22381
+
+    accuracy                           0.68    223414
+   macro avg       0.53      0.57      0.50    223414
+weighted avg       0.84      0.68      0.74    223414
+
+
+ classwise accuracy
+[0.70337706 0.42947143]
+0.5988187320963165
+
+exlnet
+
+Test Loss is 0.4325492977381011
+Test Accuracy is 0.8529904124182012
+(0.3239441359582702, 0.4300969572405165, 0.3695485257985258, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.93      0.90      0.92    201033
+      normal       0.32      0.43      0.37     22381
+
+    accuracy                           0.85    223414
+   macro avg       0.63      0.67      0.64    223414
+weighted avg       0.87      0.85      0.86    223414
+
+
+ classwise accuracy
+[0.90007113 0.43009696]
+0.7900774800109981
+resnet-50
+Test Loss is 1.3250843566078299
+Test Accuracy is 0.6150151736238553
+(0.15205170829870074, 0.621196550645637, 0.2443044536404931, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.94      0.61      0.74    201033
+      normal       0.15      0.62      0.24     22381
+
+    accuracy                           0.62    223414
+   macro avg       0.54      0.62      0.49    223414
+weighted avg       0.86      0.62      0.69    223414
+
+
+ classwise accuracy
+[0.614327   0.62119655]
+0.6602954905288297
+squeezenet
+Test Loss is 0.5426950758014915
+Test Accuracy is 0.8905395364659332
+(0.3889959323485335, 0.1623698672981547, 0.22910821801216788, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.91      0.97      0.94    201033
+      normal       0.39      0.16      0.23     22381
+
+    accuracy                           0.89    223414
+   macro avg       0.65      0.57      0.59    223414
+weighted avg       0.86      0.89      0.87    223414
+
+
+ classwise accuracy
+[0.97160665 0.16236987]
+0.7435811378184138
+
+
+ VINBIG DATASET
+
+15015
+{'abnormal': 0, 'normal': 1}
+Efficient-b4
+Test Loss is 1.1821274047012216
+Test Accuracy is 0.7212121212121212
+(0.8007666417352282, 0.806497175141243, 0.8036216926252581, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.52      0.52      0.52      4395
+      normal       0.80      0.81      0.80     10620
+
+    accuracy                           0.72     15015
+   macro avg       0.66      0.66      0.66     15015
+weighted avg       0.72      0.72      0.72     15015
+
+
+ classwise accuracy
+[0.51513083 0.80649718]
+0.737791736029429
+
+mobilenet-v2
+Test Loss is 0.8952873949166182
+Test Accuracy is 0.6933066933066933
+(0.7451699682073857, 0.8607344632768361, 0.7987940752392186, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.46      0.29      0.36      4395
+      normal       0.75      0.86      0.80     10620
+
+    accuracy                           0.69     15015
+   macro avg       0.60      0.57      0.58     15015
+weighted avg       0.66      0.69      0.67     15015
+
+
+ classwise accuracy
+[0.2887372  0.86073446]
+0.6475298179535468
+mobilenet-v3
+Test Loss is 1.0723163918380216
+Test Accuracy is 0.6253080253080253
+(0.7509547738693467, 0.703578154425612, 0.7264948954788527, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.38      0.44      0.41      4395
+      normal       0.75      0.70      0.73     10620
+
+    accuracy                           0.63     15015
+   macro avg       0.56      0.57      0.57     15015
+weighted avg       0.64      0.63      0.63     15015
+
+
+ classwise accuracy
+[0.43617747 0.70357815]
+0.592269121090779
+
+shufflenet
+
+Test Loss is 0.9582293506864306
+Test Accuracy is 0.6562770562770562
+(0.7971046043322085, 0.68954802259887, 0.7394355530872924, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.43      0.58      0.50      4395
+      normal       0.80      0.69      0.74     10620
+
+    accuracy                           0.66     15015
+   macro avg       0.62      0.63      0.62     15015
+weighted avg       0.69      0.66      0.67     15015
+
+
+ classwise accuracy
+[0.57588168 0.68954802]
+0.691948852595292
+exlnet
+Test Loss is 0.588429141636098
+Test Accuracy is 0.6906426906426907
+(0.7473710358532748, 0.8499058380414313, 0.7953474027404503, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.46      0.31      0.37      4395
+      normal       0.75      0.85      0.80     10620
+
+    accuracy                           0.69     15015
+   macro avg       0.60      0.58      0.58     15015
+weighted avg       0.66      0.69      0.67     15015
+
+
+ classwise accuracy
+[0.30580205 0.84990584]
+0.6617327192988094
+resnet-50
+Test Loss is 1.2830260687258654
+Test Accuracy is 0.6693306693306693
+(0.7425581195847988, 0.8150659133709981, 0.7771243883826366, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.42      0.32      0.36      4395
+      normal       0.74      0.82      0.78     10620
+
+    accuracy                           0.67     15015
+   macro avg       0.58      0.57      0.57     15015
+weighted avg       0.65      0.67      0.65     15015
+
+
+ classwise accuracy
+[0.31717861 0.81506591]
+0.6149047239522741
+squeezenet
+Test Loss is 0.6603651975775575
+Test Accuracy is 0.5746253746253747
+(0.7755500585861216, 0.5609227871939736, 0.6510026774493196, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.36      0.61      0.46      4395
+      normal       0.78      0.56      0.65     10620
+
+    accuracy                           0.57     15015
+   macro avg       0.57      0.58      0.55     15015
+weighted avg       0.66      0.57      0.59     15015
+
+
+ classwise accuracy
+[0.60773606 0.56092279]
+0.6357959524283929
