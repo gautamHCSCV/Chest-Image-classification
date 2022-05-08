@@ -1,0 +1,85 @@
+STANFORD DATASET
+223414
+{'abnormal': 0, 'normal': 1}
+
+Best1
+
+Test Loss is 0.3930738219750031
+Test Accuracy is 0.878261881529358
+(0.3760485821625238, 0.32648228408024665, 0.3495168851047546, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.93      0.94      0.93    201033
+      normal       0.38      0.33      0.35     22381
+
+    accuracy                           0.88    223414
+   macro avg       0.65      0.63      0.64    223414
+weighted avg       0.87      0.88      0.87    223414
+
+
+ classwise accuracy
+[0.93969149 0.32648228]
+0.7840273131894737
+
+Best2
+
+Test Loss is 0.4314818336495341
+Test Accuracy is 0.8408022773863769
+(0.2970385420514715, 0.4311246146284795, 0.35173607946778457, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.93      0.89      0.91    201033
+      normal       0.30      0.43      0.35     22381
+
+    accuracy                           0.84    223414
+   macro avg       0.62      0.66      0.63    223414
+weighted avg       0.87      0.84      0.85    223414
+
+
+ classwise accuracy
+[0.88641168 0.43112461]
+0.7728748527594308
+
+
+ VINBIG DATASET
+
+15015
+{'abnormal': 0, 'normal': 1}
+
+Best1
+
+Test Loss is 0.570490757699732
+Test Accuracy is 0.6984348984348985
+(0.7828226555246054, 0.793879472693032, 0.7883122954651707, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.48      0.47      0.48      4395
+      normal       0.78      0.79      0.79     10620
+
+    accuracy                           0.70     15015
+   macro avg       0.63      0.63      0.63     15015
+weighted avg       0.70      0.70      0.70     15015
+
+
+ classwise accuracy
+[0.46780432 0.79387947]
+0.7174205622293781
+
+Best2
+
+Test Loss is 0.5725999462060678
+Test Accuracy is 0.6929736929736929
+(0.7666844160454384, 0.8134651600753295, 0.7893823099415204, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.47      0.40      0.43      4395
+      normal       0.77      0.81      0.79     10620
+
+    accuracy                           0.69     15015
+   macro avg       0.62      0.61      0.61     15015
+weighted avg       0.68      0.69      0.69     15015
+
+
+ classwise accuracy
+[0.40182025 0.81346516]
+0.6978515111976673
