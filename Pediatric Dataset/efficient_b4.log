@@ -1,0 +1,457 @@
+cuda:5
+Epoch 0/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 02528 examples: 0.662
+Loss after 05088 examples: 0.577
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.6883, dtype=torch.float64)
+Validation Loss is 0.5778891618696519
+Validation Accuracy is 0.7383419689119172
+
+One of the best validation accuracy found.
+
+Epoch 1/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 07628 examples: 0.400
+Loss after 10188 examples: 0.515
+Loss after 12748 examples: 0.464
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.7399, dtype=torch.float64)
+Validation Loss is 0.5523095569462356
+Validation Accuracy is 0.7370466321243524
+
+Epoch 2/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 15288 examples: 0.422
+Loss after 17848 examples: 0.350
+Loss after 20408 examples: 0.386
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.7858, dtype=torch.float64)
+Validation Loss is 0.68238167873936
+Validation Accuracy is 0.5764248704663213
+
+Epoch 3/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 22948 examples: 0.534
+Loss after 25508 examples: 0.368
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.8488, dtype=torch.float64)
+Validation Loss is 0.6637291883557571
+Validation Accuracy is 0.705958549222798
+
+Epoch 4/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 28048 examples: 0.182
+Loss after 30608 examples: 0.165
+Loss after 33168 examples: 0.179
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9048, dtype=torch.float64)
+Validation Loss is 0.7579209032454022
+Validation Accuracy is 0.711139896373057
+
+Epoch 5/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 35708 examples: 0.053
+Loss after 38268 examples: 0.294
+Loss after 40828 examples: 0.106
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9372, dtype=torch.float64)
+Validation Loss is 1.0042658729256744
+Validation Accuracy is 0.7085492227979275
+
+Epoch 6/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 43368 examples: 0.385
+Loss after 45928 examples: 0.168
+Loss after 48488 examples: 0.152
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9478, dtype=torch.float64)
+Validation Loss is 1.1504012587156938
+Validation Accuracy is 0.7240932642487047
+
+Epoch 7/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 51028 examples: 0.200
+Loss after 53588 examples: 0.106
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9602, dtype=torch.float64)
+Validation Loss is 1.189859290505938
+Validation Accuracy is 0.689119170984456
+
+Epoch 8/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 56128 examples: 0.109
+Loss after 58688 examples: 0.166
+Loss after 61248 examples: 0.027
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9705, dtype=torch.float64)
+Validation Loss is 1.4018616933433503
+Validation Accuracy is 0.7098445595854923
+
+Epoch 9/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 63788 examples: 0.094
+Loss after 66348 examples: 0.034
+Loss after 68908 examples: 0.073
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9751, dtype=torch.float64)
+Validation Loss is 1.435752334063535
+Validation Accuracy is 0.7318652849740933
+
+Epoch 10/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 71448 examples: 0.049
+Loss after 74008 examples: 0.066
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9717, dtype=torch.float64)
+Validation Loss is 1.6699736634066686
+Validation Accuracy is 0.7331606217616581
+
+Epoch 11/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 76548 examples: 0.010
+Loss after 79108 examples: 0.054
+Loss after 81668 examples: 0.013
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9781, dtype=torch.float64)
+Validation Loss is 1.3994329655108675
+Validation Accuracy is 0.6981865284974094
+
+Epoch 12/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 84208 examples: 0.235
+Loss after 86768 examples: 0.091
+Loss after 89328 examples: 0.024
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9816, dtype=torch.float64)
+Validation Loss is 1.4919931793131822
+Validation Accuracy is 0.7007772020725389
+
+Epoch 13/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 91868 examples: 0.026
+Loss after 94428 examples: 0.015
+Loss after 96988 examples: 0.116
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9792, dtype=torch.float64)
+Validation Loss is 1.6745196920602432
+Validation Accuracy is 0.7124352331606217
+
+Epoch 14/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 99528 examples: 0.189
+Loss after 102088 examples: 0.049
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9767, dtype=torch.float64)
+Validation Loss is 1.1705030256911262
+Validation Accuracy is 0.7072538860103628
+
+Epoch 15/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 104628 examples: 0.078
+Loss after 107188 examples: 0.096
+Loss after 109748 examples: 0.165
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9859, dtype=torch.float64)
+Validation Loss is 1.6169170534981347
+Validation Accuracy is 0.7331606217616581
+
+Epoch 16/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 112288 examples: 0.009
+Loss after 114848 examples: 0.041
+Loss after 117408 examples: 0.070
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9869, dtype=torch.float64)
+Validation Loss is 1.7650177157604632
+Validation Accuracy is 0.7046632124352332
+
+Epoch 17/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 119948 examples: 0.009
+Loss after 122508 examples: 0.018
+Loss after 125068 examples: 0.000
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9830, dtype=torch.float64)
+Validation Loss is 2.2898830135251576
+Validation Accuracy is 0.7098445595854923
+
+Epoch 18/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 127608 examples: 0.008
+Loss after 130168 examples: 0.029
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9815, dtype=torch.float64)
+Validation Loss is 1.6980396453580708
+Validation Accuracy is 0.7072538860103628
+
+Epoch 19/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 132708 examples: 0.015
+Loss after 135268 examples: 0.011
+Loss after 137828 examples: 0.027
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9894, dtype=torch.float64)
+Validation Loss is 1.7430591880503097
+Validation Accuracy is 0.7305699481865285
+
+Epoch 20/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 140368 examples: 0.050
+Loss after 142928 examples: 0.001
+Loss after 145488 examples: 0.004
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9856, dtype=torch.float64)
+Validation Loss is 1.6971572384315452
+Validation Accuracy is 0.7266839378238342
+
+Epoch 21/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 148028 examples: 0.148
+Loss after 150588 examples: 0.004
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9862, dtype=torch.float64)
+Validation Loss is 1.7246254132819299
+Validation Accuracy is 0.705958549222798
+
+Epoch 22/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 153128 examples: 0.001
+Loss after 155688 examples: 0.052
+Loss after 158248 examples: 0.022
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9894, dtype=torch.float64)
+Validation Loss is 1.7233832834066505
+Validation Accuracy is 0.7150259067357513
+
+Epoch 23/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 160788 examples: 0.018
+Loss after 163348 examples: 0.045
+Loss after 165908 examples: 0.001
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9873, dtype=torch.float64)
+Validation Loss is 1.885164223804375
+Validation Accuracy is 0.7189119170984456
+
+Epoch 24/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 168448 examples: 0.230
+Loss after 171008 examples: 0.305
+Loss after 173568 examples: 0.001
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9868, dtype=torch.float64)
+Validation Loss is 1.7973943780432093
+Validation Accuracy is 0.7215025906735751
+
+Epoch 25/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 176108 examples: 0.038
+Loss after 178668 examples: 0.024
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9862, dtype=torch.float64)
+Validation Loss is 1.6573222356756734
+Validation Accuracy is 0.7202072538860104
+
+Epoch 26/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 181208 examples: 0.003
+Loss after 183768 examples: 0.025
+Loss after 186328 examples: 0.005
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9896, dtype=torch.float64)
+Validation Loss is 1.7263747542478878
+Validation Accuracy is 0.6917098445595855
+
+Epoch 27/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 188868 examples: 0.087
+Loss after 191428 examples: 0.047
+Loss after 193988 examples: 0.017
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9909, dtype=torch.float64)
+Validation Loss is 2.184416978470402
+Validation Accuracy is 0.6839378238341969
+
+Epoch 28/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 196528 examples: 0.017
+Loss after 199088 examples: 0.015
+Loss after 201648 examples: 0.009
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9872, dtype=torch.float64)
+Validation Loss is 1.6117686410024377
+Validation Accuracy is 0.6904145077720207
+
+Epoch 29/29
+----------
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Loss after 204188 examples: 0.004
+Loss after 206748 examples: 0.012
+/DATA/kumar156/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:218: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+Train Accuracy tensor(0.9869, dtype=torch.float64)
+Validation Loss is 1.7587976708931008
+Validation Accuracy is 0.6515544041450777
+
+Training complete in 84m 30s
