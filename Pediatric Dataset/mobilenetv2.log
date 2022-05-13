@@ -1,0 +1,499 @@
+cuda:4
+model: mobilenetv2
+218
+44
+25
+total_trainable_parameters are : 2.23M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+=> saving checkpoint
+epoch:[1/30], TrainAcc:0.689, TrainLoss:0.600, ValAcc:0.719, ValLoss:0.559
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+=> saving checkpoint
+epoch:[2/30], TrainAcc:0.732, TrainLoss:0.541, ValAcc:0.749, ValLoss:0.547
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+=> saving checkpoint
+epoch:[3/30], TrainAcc:0.764, TrainLoss:0.493, ValAcc:0.751, ValLoss:0.543
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+=> saving checkpoint
+epoch:[4/30], TrainAcc:0.805, TrainLoss:0.425, ValAcc:0.763, ValLoss:0.523
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[5/30], TrainAcc:0.848, TrainLoss:0.341, ValAcc:0.758, ValLoss:0.682
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[6/30], TrainAcc:0.905, TrainLoss:0.235, ValAcc:0.587, ValLoss:0.995
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[7/30], TrainAcc:0.936, TrainLoss:0.164, ValAcc:0.614, ValLoss:1.168
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[8/30], TrainAcc:0.955, TrainLoss:0.116, ValAcc:0.660, ValLoss:1.133
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[9/30], TrainAcc:0.960, TrainLoss:0.099, ValAcc:0.650, ValLoss:1.148
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[10/30], TrainAcc:0.967, TrainLoss:0.088, ValAcc:0.691, ValLoss:1.073
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[11/30], TrainAcc:0.973, TrainLoss:0.069, ValAcc:0.699, ValLoss:1.236
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[12/30], TrainAcc:0.979, TrainLoss:0.059, ValAcc:0.736, ValLoss:1.496
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[13/30], TrainAcc:0.980, TrainLoss:0.056, ValAcc:0.741, ValLoss:1.395
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[14/30], TrainAcc:0.978, TrainLoss:0.062, ValAcc:0.743, ValLoss:1.350
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[15/30], TrainAcc:0.979, TrainLoss:0.057, ValAcc:0.704, ValLoss:1.293
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[16/30], TrainAcc:0.982, TrainLoss:0.048, ValAcc:0.724, ValLoss:1.938
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[17/30], TrainAcc:0.980, TrainLoss:0.052, ValAcc:0.704, ValLoss:1.194
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[18/30], TrainAcc:0.977, TrainLoss:0.059, ValAcc:0.682, ValLoss:1.449
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[19/30], TrainAcc:0.983, TrainLoss:0.045, ValAcc:0.720, ValLoss:1.531
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[20/30], TrainAcc:0.988, TrainLoss:0.034, ValAcc:0.717, ValLoss:1.963
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[21/30], TrainAcc:0.983, TrainLoss:0.044, ValAcc:0.721, ValLoss:1.421
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[22/30], TrainAcc:0.989, TrainLoss:0.035, ValAcc:0.717, ValLoss:1.607
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[23/30], TrainAcc:0.982, TrainLoss:0.051, ValAcc:0.741, ValLoss:1.286
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[24/30], TrainAcc:0.986, TrainLoss:0.038, ValAcc:0.725, ValLoss:1.406
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[25/30], TrainAcc:0.992, TrainLoss:0.025, ValAcc:0.734, ValLoss:1.893
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[26/30], TrainAcc:0.993, TrainLoss:0.021, ValAcc:0.727, ValLoss:1.836
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[27/30], TrainAcc:0.983, TrainLoss:0.046, ValAcc:0.654, ValLoss:2.015
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[28/30], TrainAcc:0.983, TrainLoss:0.048, ValAcc:0.727, ValLoss:1.470
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[29/30], TrainAcc:0.989, TrainLoss:0.028, ValAcc:0.702, ValLoss:1.613
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+epoch:[30/30], TrainAcc:0.985, TrainLoss:0.042, ValAcc:0.704, ValLoss:1.376
+done time 1.083 hours
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+/DATA/sharma59/.local/lib/python3.7/site-packages/pydicom/pixel_data_handlers/numpy_handler.py:327: UserWarning: The odd length pixel data is missing a trailing padding byte
+  "The odd length pixel data is missing a trailing padding byte"
+correct are 0.679
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       907
+           1       0.54      0.56      0.55       490
+
+    accuracy                           0.68      1397
+   macro avg       0.65      0.65      0.65      1397
+weighted avg       0.68      0.68      0.68      1397
+
+class-wise
+[0.75788288 0.54027505]
+[0.74200662 0.56122449]
+[0.74986072 0.55055055]
+avg-out
+0.6490789659993982
+0.6516155525054563
+0.6502056373922669
