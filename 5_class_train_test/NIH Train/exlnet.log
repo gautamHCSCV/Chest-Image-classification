@@ -1,0 +1,130 @@
+cuda:1
+model: exlnet
+defining exlnet
+train_labels_nih file already exits
+test_labels_nih file already exits
+1912
+568
+213
+total_trainable_parameters are : 0.14M
+Epoch: 1/30
+---------------
+=> saving checkpoint
+epoch:[1/30], TrainAcc:0.741, TrainLoss:0.805, ValAcc:0.747, ValLoss:0.778
+Epoch: 2/30
+---------------
+=> saving checkpoint
+epoch:[2/30], TrainAcc:0.746, TrainLoss:0.767, ValAcc:0.751, ValLoss:0.771
+Epoch: 3/30
+---------------
+=> saving checkpoint
+epoch:[3/30], TrainAcc:0.749, TrainLoss:0.753, ValAcc:0.757, ValLoss:0.745
+Epoch: 4/30
+---------------
+epoch:[4/30], TrainAcc:0.751, TrainLoss:0.743, ValAcc:0.756, ValLoss:0.756
+Epoch: 5/30
+---------------
+=> saving checkpoint
+epoch:[5/30], TrainAcc:0.754, TrainLoss:0.736, ValAcc:0.759, ValLoss:0.738
+Epoch: 6/30
+---------------
+=> saving checkpoint
+epoch:[6/30], TrainAcc:0.755, TrainLoss:0.728, ValAcc:0.761, ValLoss:0.726
+Epoch: 7/30
+---------------
+epoch:[7/30], TrainAcc:0.757, TrainLoss:0.720, ValAcc:0.759, ValLoss:0.728
+Epoch: 8/30
+---------------
+=> saving checkpoint
+epoch:[8/30], TrainAcc:0.758, TrainLoss:0.711, ValAcc:0.762, ValLoss:0.724
+Epoch: 9/30
+---------------
+epoch:[9/30], TrainAcc:0.759, TrainLoss:0.704, ValAcc:0.760, ValLoss:0.710
+Epoch: 10/30
+---------------
+=> saving checkpoint
+epoch:[10/30], TrainAcc:0.761, TrainLoss:0.697, ValAcc:0.764, ValLoss:0.702
+Epoch: 11/30
+---------------
+epoch:[11/30], TrainAcc:0.760, TrainLoss:0.692, ValAcc:0.762, ValLoss:0.706
+Epoch: 12/30
+---------------
+epoch:[12/30], TrainAcc:0.762, TrainLoss:0.688, ValAcc:0.759, ValLoss:0.710
+Epoch: 13/30
+---------------
+=> saving checkpoint
+epoch:[13/30], TrainAcc:0.762, TrainLoss:0.681, ValAcc:0.766, ValLoss:0.685
+Epoch: 14/30
+---------------
+epoch:[14/30], TrainAcc:0.764, TrainLoss:0.677, ValAcc:0.758, ValLoss:0.697
+Epoch: 15/30
+---------------
+epoch:[15/30], TrainAcc:0.765, TrainLoss:0.672, ValAcc:0.766, ValLoss:0.691
+Epoch: 16/30
+---------------
+epoch:[16/30], TrainAcc:0.765, TrainLoss:0.668, ValAcc:0.765, ValLoss:0.698
+Epoch: 17/30
+---------------
+epoch:[17/30], TrainAcc:0.767, TrainLoss:0.664, ValAcc:0.762, ValLoss:0.695
+Epoch: 18/30
+---------------
+epoch:[18/30], TrainAcc:0.768, TrainLoss:0.659, ValAcc:0.766, ValLoss:0.682
+Epoch: 19/30
+---------------
+epoch:[19/30], TrainAcc:0.769, TrainLoss:0.657, ValAcc:0.754, ValLoss:0.710
+Epoch: 20/30
+---------------
+epoch:[20/30], TrainAcc:0.771, TrainLoss:0.652, ValAcc:0.766, ValLoss:0.685
+Epoch: 21/30
+---------------
+epoch:[21/30], TrainAcc:0.772, TrainLoss:0.649, ValAcc:0.764, ValLoss:0.721
+Epoch: 22/30
+---------------
+epoch:[22/30], TrainAcc:0.772, TrainLoss:0.645, ValAcc:0.757, ValLoss:0.704
+Epoch: 23/30
+---------------
+=> saving checkpoint
+epoch:[23/30], TrainAcc:0.774, TrainLoss:0.642, ValAcc:0.773, ValLoss:0.692
+Epoch: 24/30
+---------------
+epoch:[24/30], TrainAcc:0.775, TrainLoss:0.638, ValAcc:0.765, ValLoss:0.694
+Epoch: 25/30
+---------------
+epoch:[25/30], TrainAcc:0.777, TrainLoss:0.631, ValAcc:0.770, ValLoss:0.688
+Epoch: 26/30
+---------------
+epoch:[26/30], TrainAcc:0.778, TrainLoss:0.628, ValAcc:0.764, ValLoss:0.701
+Epoch: 27/30
+---------------
+epoch:[27/30], TrainAcc:0.778, TrainLoss:0.624, ValAcc:0.768, ValLoss:0.698
+Epoch: 28/30
+---------------
+epoch:[28/30], TrainAcc:0.780, TrainLoss:0.621, ValAcc:0.762, ValLoss:0.703
+Epoch: 29/30
+---------------
+epoch:[29/30], TrainAcc:0.782, TrainLoss:0.615, ValAcc:0.765, ValLoss:0.704
+Epoch: 30/30
+---------------
+epoch:[30/30], TrainAcc:0.783, TrainLoss:0.613, ValAcc:0.768, ValLoss:0.693
+done time 3.839 hours
+correct are 0.580
+              precision    recall  f1-score   support
+
+           0       0.64      0.84      0.73      9861
+           1       0.43      0.08      0.13      2434
+           2       0.47      0.11      0.18       759
+           3       0.24      0.00      0.01      1353
+           4       0.43      0.52      0.47      3745
+
+    accuracy                           0.58     18152
+   macro avg       0.44      0.31      0.30     18152
+weighted avg       0.53      0.58      0.52     18152
+
+class-wise
+[0.63910296 0.42791762 0.47159091 0.23529412 0.42982842]
+[0.84098976 0.07682827 0.10935441 0.00295639 0.52176235]
+[0.72627753 0.1302682  0.17754011 0.00583942 0.47135448]
+avg-out
+0.44074680535485833
+0.31037823611235416
+0.30225594701627917

@@ -1,0 +1,124 @@
+cuda:1
+model: mobilenetv3
+defining mobilenetv3
+train_labels_nih file already exits
+test_labels_nih file already exits
+1912
+568
+213
+total_trainable_parameters are : 1.52M
+Epoch: 1/30
+---------------
+=> saving checkpoint
+epoch:[1/30], TrainAcc:0.761, TrainLoss:0.697, ValAcc:0.765, ValLoss:0.687
+Epoch: 2/30
+---------------
+=> saving checkpoint
+epoch:[2/30], TrainAcc:0.772, TrainLoss:0.645, ValAcc:0.769, ValLoss:0.662
+Epoch: 3/30
+---------------
+=> saving checkpoint
+epoch:[3/30], TrainAcc:0.780, TrainLoss:0.617, ValAcc:0.774, ValLoss:0.660
+Epoch: 4/30
+---------------
+epoch:[4/30], TrainAcc:0.787, TrainLoss:0.587, ValAcc:0.758, ValLoss:0.674
+Epoch: 5/30
+---------------
+epoch:[5/30], TrainAcc:0.801, TrainLoss:0.546, ValAcc:0.767, ValLoss:0.683
+Epoch: 6/30
+---------------
+epoch:[6/30], TrainAcc:0.819, TrainLoss:0.494, ValAcc:0.746, ValLoss:0.734
+Epoch: 7/30
+---------------
+epoch:[7/30], TrainAcc:0.843, TrainLoss:0.430, ValAcc:0.757, ValLoss:0.777
+Epoch: 8/30
+---------------
+epoch:[8/30], TrainAcc:0.869, TrainLoss:0.356, ValAcc:0.732, ValLoss:0.905
+Epoch: 9/30
+---------------
+epoch:[9/30], TrainAcc:0.894, TrainLoss:0.290, ValAcc:0.738, ValLoss:0.986
+Epoch: 10/30
+---------------
+epoch:[10/30], TrainAcc:0.916, TrainLoss:0.227, ValAcc:0.729, ValLoss:1.128
+Epoch: 11/30
+---------------
+epoch:[11/30], TrainAcc:0.931, TrainLoss:0.185, ValAcc:0.735, ValLoss:1.237
+Epoch: 12/30
+---------------
+epoch:[12/30], TrainAcc:0.944, TrainLoss:0.156, ValAcc:0.739, ValLoss:1.335
+Epoch: 13/30
+---------------
+epoch:[13/30], TrainAcc:0.951, TrainLoss:0.133, ValAcc:0.743, ValLoss:1.475
+Epoch: 14/30
+---------------
+epoch:[14/30], TrainAcc:0.957, TrainLoss:0.116, ValAcc:0.721, ValLoss:1.550
+Epoch: 15/30
+---------------
+epoch:[15/30], TrainAcc:0.960, TrainLoss:0.110, ValAcc:0.733, ValLoss:1.493
+Epoch: 16/30
+---------------
+epoch:[16/30], TrainAcc:0.963, TrainLoss:0.102, ValAcc:0.737, ValLoss:1.463
+Epoch: 17/30
+---------------
+epoch:[17/30], TrainAcc:0.967, TrainLoss:0.093, ValAcc:0.724, ValLoss:1.557
+Epoch: 18/30
+---------------
+epoch:[18/30], TrainAcc:0.970, TrainLoss:0.085, ValAcc:0.731, ValLoss:1.652
+Epoch: 19/30
+---------------
+epoch:[19/30], TrainAcc:0.969, TrainLoss:0.086, ValAcc:0.733, ValLoss:1.590
+Epoch: 20/30
+---------------
+epoch:[20/30], TrainAcc:0.971, TrainLoss:0.081, ValAcc:0.709, ValLoss:1.683
+Epoch: 21/30
+---------------
+epoch:[21/30], TrainAcc:0.972, TrainLoss:0.077, ValAcc:0.717, ValLoss:1.676
+Epoch: 22/30
+---------------
+epoch:[22/30], TrainAcc:0.975, TrainLoss:0.071, ValAcc:0.740, ValLoss:1.847
+Epoch: 23/30
+---------------
+epoch:[23/30], TrainAcc:0.975, TrainLoss:0.069, ValAcc:0.725, ValLoss:1.799
+Epoch: 24/30
+---------------
+epoch:[24/30], TrainAcc:0.976, TrainLoss:0.068, ValAcc:0.732, ValLoss:1.679
+Epoch: 25/30
+---------------
+epoch:[25/30], TrainAcc:0.976, TrainLoss:0.067, ValAcc:0.736, ValLoss:1.975
+Epoch: 26/30
+---------------
+epoch:[26/30], TrainAcc:0.979, TrainLoss:0.061, ValAcc:0.742, ValLoss:1.867
+Epoch: 27/30
+---------------
+epoch:[27/30], TrainAcc:0.978, TrainLoss:0.061, ValAcc:0.743, ValLoss:1.881
+Epoch: 28/30
+---------------
+epoch:[28/30], TrainAcc:0.978, TrainLoss:0.062, ValAcc:0.711, ValLoss:1.709
+Epoch: 29/30
+---------------
+epoch:[29/30], TrainAcc:0.979, TrainLoss:0.059, ValAcc:0.719, ValLoss:1.794
+Epoch: 30/30
+---------------
+epoch:[30/30], TrainAcc:0.980, TrainLoss:0.056, ValAcc:0.729, ValLoss:1.833
+done time 3.851 hours
+correct are 0.530
+              precision    recall  f1-score   support
+
+           0       0.67      0.73      0.70      9861
+           1       0.24      0.16      0.19      2434
+           2       0.36      0.15      0.21       759
+           3       0.15      0.10      0.12      1353
+           4       0.39      0.47      0.42      3745
+
+    accuracy                           0.53     18152
+   macro avg       0.36      0.32      0.33     18152
+weighted avg       0.50      0.53      0.51     18152
+
+class-wise
+[0.66848681 0.24319307 0.36217949 0.15010799 0.3886045 ]
+[0.73248149 0.16146261 0.14888011 0.10273466 0.46622163]
+[0.69902255 0.19407407 0.21101774 0.12198333 0.42388929]
+avg-out
+0.36251437107817214
+0.32235610073650556
+0.3299973966312191
