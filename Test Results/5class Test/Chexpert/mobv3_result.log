@@ -1,0 +1,23 @@
+cuda:1
+model: mobilenetv3
+defining mobilenetv3
+{0: 'No Finding', 1: 'Atelectasis', 2: 'Cardiomegaly', 3: 'Consolidation', 4: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 1.52M
+Accuracy: 0.3385426218136297
+(array([0.18709801, 0.30832017, 0.56653747, 0.14933876, 0.82122223]), array([0.92028986, 0.16472078, 0.04670856, 0.06828542, 0.35370943]), array([0.31097397, 0.21472449, 0.08630191, 0.09371808, 0.49445267]), array([16974, 14218, 18776, 10749, 64700]))
+
+AUROC:
+0.6596483347369831
+              precision    recall  f1-score   support
+
+           0       0.19      0.92      0.31     16974
+           1       0.31      0.16      0.21     14218
+           2       0.57      0.05      0.09     18776
+           3       0.15      0.07      0.09     10749
+           4       0.82      0.35      0.49     64700
+
+    accuracy                           0.34    125417
+   macro avg       0.41      0.31      0.24    125417
+weighted avg       0.58      0.34      0.34    125417
+
