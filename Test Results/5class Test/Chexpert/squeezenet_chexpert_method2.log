@@ -1,0 +1,25 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+cuda:1
+model: squeezenet
+defining squeezenet
+{0: 'No Finding', 1: 'Atelectasis', 2: 'Cardiomegaly', 3: 'Consolidation', 4: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+Accuracy: 0.40496902333814394
+(array([0.22767026, 0.31266691, 0.57142857, 0.16908499, 0.83202899]), array([0.84965241, 0.37165443, 0.10605478, 0.11452066, 0.42567147]), array([0.35911355, 0.33961835, 0.17890545, 0.13655387, 0.56320406]), array([16974, 16066, 18217,  9972, 64188]))
+
+AUROC:
+0.6975441429487563
+              precision    recall  f1-score   support
+
+           0       0.23      0.85      0.36     16974
+           1       0.31      0.37      0.34     16066
+           2       0.57      0.11      0.18     18217
+           3       0.17      0.11      0.14      9972
+           4       0.83      0.43      0.56     64188
+
+    accuracy                           0.40    125417
+   macro avg       0.42      0.37      0.32    125417
+weighted avg       0.59      0.40      0.42    125417
+

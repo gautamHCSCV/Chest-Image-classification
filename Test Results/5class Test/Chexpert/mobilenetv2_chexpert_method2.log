@@ -1,0 +1,25 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+cuda:0
+model: mobilenetv2
+defining mobilenetv2
+{0: 'No Finding', 1: 'Atelectasis', 2: 'Cardiomegaly', 3: 'Consolidation', 4: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+Accuracy: 0.30228756867091383
+(array([0.18428963, 0.35520919, 0.56836997, 0.14185627, 0.85592924]), array([0.91015671, 0.09627928, 0.10020131, 0.18250781, 0.26814453]), array([0.30651561, 0.15149571, 0.17036752, 0.15963467, 0.40835886]), array([16974, 13492, 19870, 11205, 63876]))
+
+AUROC:
+0.6638445088346809
+              precision    recall  f1-score   support
+
+           0       0.18      0.91      0.31     16974
+           1       0.36      0.10      0.15     13492
+           2       0.57      0.10      0.17     19870
+           3       0.14      0.18      0.16     11205
+           4       0.86      0.27      0.41     63876
+
+    accuracy                           0.30    125417
+   macro avg       0.42      0.31      0.24    125417
+weighted avg       0.60      0.30      0.31    125417
+

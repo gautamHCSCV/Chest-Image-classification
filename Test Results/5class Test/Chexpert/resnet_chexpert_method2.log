@@ -1,0 +1,25 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+cuda:2
+model: resnet
+defining resnet
+{0: 'No Finding', 1: 'Atelectasis', 2: 'Cardiomegaly', 3: 'Consolidation', 4: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+Accuracy: 0.404267364073451
+(array([0.21129907, 0.33106383, 0.74289581, 0.14859711, 0.82407722]), array([0.89701897, 0.16548497, 0.03105731, 0.10995767, 0.47201079]), array([0.34203048, 0.22066749, 0.05962207, 0.12639018, 0.60022674]), array([16974, 14104, 17677,  9922, 66740]))
+
+AUROC:
+0.6784014110619702
+              precision    recall  f1-score   support
+
+           0       0.21      0.90      0.34     16974
+           1       0.33      0.17      0.22     14104
+           2       0.74      0.03      0.06     17677
+           3       0.15      0.11      0.13      9922
+           4       0.82      0.47      0.60     66740
+
+    accuracy                           0.40    125417
+   macro avg       0.45      0.34      0.27    125417
+weighted avg       0.62      0.40      0.41    125417
+
