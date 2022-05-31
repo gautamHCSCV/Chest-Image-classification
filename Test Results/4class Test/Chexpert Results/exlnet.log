@@ -1,0 +1,22 @@
+cuda:7
+model: exlnet
+defining exlnet
+{0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 0.14M
+Accuracy: 0.7191796612045037
+(array([0.43743598, 0.62452559, 0.23809524, 0.76459952]), array([0.35516286, 0.3445985 , 0.00153539, 0.92438766]), array([0.39202937, 0.44413421, 0.00305111, 0.83693514]), array([14430, 13848,  6513, 73652]))
+
+AUROC:
+0.714785991942933
+              precision    recall  f1-score   support
+
+           0       0.44      0.36      0.39     14430
+           1       0.62      0.34      0.44     13848
+           2       0.24      0.00      0.00      6513
+           3       0.76      0.92      0.84     73652
+
+    accuracy                           0.72    108443
+   macro avg       0.52      0.41      0.42    108443
+weighted avg       0.67      0.72      0.68    108443
+

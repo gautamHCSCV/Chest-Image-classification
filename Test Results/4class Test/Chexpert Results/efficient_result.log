@@ -1,0 +1,22 @@
+cuda:6
+model: efficientnet
+defining efficientnet
+{0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 17.56M
+Accuracy: 0.7384616803297585
+(array([0.4825609 , 0.70962879, 0.33698903, 0.8424712 ]), array([0.68689782, 0.52124567, 0.1521837 , 0.84946857]), array([0.56687769, 0.60102139, 0.20967742, 0.84595542]), array([16295, 14450,  6663, 71035]))
+
+AUROC:
+0.7869198817880991
+              precision    recall  f1-score   support
+
+           0       0.48      0.69      0.57     16295
+           1       0.71      0.52      0.60     14450
+           2       0.34      0.15      0.21      6663
+           3       0.84      0.85      0.85     71035
+
+    accuracy                           0.74    108443
+   macro avg       0.59      0.55      0.56    108443
+weighted avg       0.74      0.74      0.73    108443
+

@@ -1,0 +1,22 @@
+cuda:6
+model: mobilenetv2
+defining mobilenetv2
+{0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 2.23M
+Accuracy: 0.5765978440286602
+(array([0.3841469 , 0.60147843, 0.18024082, 0.82960245]), array([0.69241005, 0.39518013, 0.34622227, 0.6192759 ]), array([0.49414418, 0.47697844, 0.23706652, 0.70917314]), array([18037, 16266,  8431, 65709]))
+
+AUROC:
+0.730493530787838
+              precision    recall  f1-score   support
+
+           0       0.38      0.69      0.49     18037
+           1       0.60      0.40      0.48     16266
+           2       0.18      0.35      0.24      8431
+           3       0.83      0.62      0.71     65709
+
+    accuracy                           0.58    108443
+   macro avg       0.50      0.51      0.48    108443
+weighted avg       0.67      0.58      0.60    108443
+
