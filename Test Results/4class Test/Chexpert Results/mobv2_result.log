@@ -1,4 +1,4 @@
-cuda:6
+cuda:7
 model: mobilenetv2
 defining mobilenetv2
 {0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}

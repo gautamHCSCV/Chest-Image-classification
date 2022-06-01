@@ -1,0 +1,22 @@
+cuda:6
+model: resnet
+defining resnet
+{0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 23.52M
+Accuracy: 0.6544820781424343
+(array([0.39368292, 0.52560738, 0.1903794 , 0.79128637]), array([0.54943984, 0.49688256, 0.07738915, 0.77605411]), array([0.45869974, 0.51084148, 0.11004504, 0.78359622]), array([16424, 15718,  7262, 69039]))
+
+AUROC:
+0.7160000821576161
+              precision    recall  f1-score   support
+
+           0       0.39      0.55      0.46     16424
+           1       0.53      0.50      0.51     15718
+           2       0.19      0.08      0.11      7262
+           3       0.79      0.78      0.78     69039
+
+    accuracy                           0.65    108443
+   macro avg       0.48      0.47      0.47    108443
+weighted avg       0.65      0.65      0.65    108443
+
