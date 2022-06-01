@@ -1,0 +1,27 @@
+cuda:6
+model: shufflenet
+defining shufflenet
+labels file exists
+99
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+correct are 0.392
+              precision    recall  f1-score   support
+
+           0       0.04      0.44      0.08       104
+           1       0.95      0.25      0.40      2017
+           2       0.23      0.38      0.29       170
+           3       0.47      0.70      0.56       873
+
+    accuracy                           0.39      3164
+   macro avg       0.42      0.44      0.33      3164
+weighted avg       0.75      0.39      0.43      3164
+
+class-wise
+[0.04483431 0.946593   0.23021583 0.46697039]
+[0.44230769 0.25483391 0.37647059 0.70446735]
+[0.08141593 0.4015625  0.28571429 0.56164384]
+avg-out
+0.4221533811039221
+0.4445198865612501
+0.332584137633566
