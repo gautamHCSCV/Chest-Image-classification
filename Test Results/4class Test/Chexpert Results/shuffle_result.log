@@ -1,0 +1,22 @@
+cuda:7
+model: shufflenet
+defining shufflenet
+{0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 1.26M
+Accuracy: 0.5697832040795625
+(array([0.34672344, 0.65520021, 0.19995014, 0.80597579]), array([0.7518263 , 0.30410378, 0.19131679, 0.62956167]), array([0.4745817 , 0.41540296, 0.19553822, 0.70692891]), array([19712, 16034,  8384, 64313]))
+
+AUROC:
+0.7108822894301734
+              precision    recall  f1-score   support
+
+           0       0.35      0.75      0.47     19712
+           1       0.66      0.30      0.42     16034
+           2       0.20      0.19      0.20      8384
+           3       0.81      0.63      0.71     64313
+
+    accuracy                           0.57    108443
+   macro avg       0.50      0.47      0.45    108443
+weighted avg       0.65      0.57      0.58    108443
+
