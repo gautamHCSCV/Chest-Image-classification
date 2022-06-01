@@ -1,0 +1,22 @@
+cuda:6
+model: squeezenet
+defining squeezenet
+{0: 'Atelectasis', 1: 'Cardiomegaly', 2: 'Consolidation', 3: 'Pleural Effusion'}
+=> loading checkpoint
+total_trainable_parameters are : 0.74M
+Accuracy: 0.6978228193613235
+(array([0.42156399, 0.63445062, 0.24242424, 0.78593569]), array([0.60118938, 0.30428201, 0.00474074, 0.86162774]), array([0.49560295, 0.41130329, 0.00929962, 0.822043  ]), array([16311, 13872,  6750, 71510]))
+
+AUROC:
+0.7266048659755291
+              precision    recall  f1-score   support
+
+           0       0.42      0.60      0.50     16311
+           1       0.63      0.30      0.41     13872
+           2       0.24      0.00      0.01      6750
+           3       0.79      0.86      0.82     71510
+
+    accuracy                           0.70    108443
+   macro avg       0.52      0.44      0.43    108443
+weighted avg       0.68      0.70      0.67    108443
+
