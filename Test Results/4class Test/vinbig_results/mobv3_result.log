@@ -1,0 +1,27 @@
+cuda:6
+model: mobilenetv3
+defining mobilenetv3
+labels file exists
+99
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+correct are 0.369
+              precision    recall  f1-score   support
+
+           0       0.06      0.64      0.10       115
+           1       0.96      0.28      0.43      2048
+           2       0.18      0.43      0.25       181
+           3       0.55      0.54      0.54       820
+
+    accuracy                           0.37      3164
+   macro avg       0.43      0.47      0.33      3164
+weighted avg       0.77      0.37      0.44      3164
+
+class-wise
+[0.05589124 0.95673877 0.17889908 0.54669988]
+[0.64347826 0.28076172 0.43093923 0.53536585]
+[0.1028492  0.43412609 0.2528363  0.54097351]
+avg-out
+0.43455724135632573
+0.4726362649493597
+0.33269627417566144
