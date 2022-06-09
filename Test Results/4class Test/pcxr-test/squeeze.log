@@ -1,0 +1,26 @@
+cuda:6
+model: squeezenet
+defining squeezenet
+12
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+correct are 0.067
+              precision    recall  f1-score   support
+
+           0       0.06      0.45      0.11        20
+           1       0.75      0.02      0.04       157
+           2       0.47      0.05      0.09       171
+           3       0.02      0.40      0.04        10
+
+    accuracy                           0.07       358
+   macro avg       0.33      0.23      0.07       358
+weighted avg       0.56      0.07      0.06       358
+
+class-wise
+[0.06081081 0.75       0.47058824 0.02116402]
+[0.45       0.01910828 0.04678363 0.4       ]
+[0.10714286 0.03726708 0.08510638 0.04020101]
+avg-out
+0.3256407668172374
+0.2289729764964428
+0.06742933147301196

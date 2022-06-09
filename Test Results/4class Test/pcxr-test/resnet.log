@@ -1,0 +1,26 @@
+cuda:7
+model: resnet
+defining resnet
+12
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+correct are 0.131
+              precision    recall  f1-score   support
+
+           0       0.06      0.70      0.11        20
+           1       0.75      0.02      0.04       157
+           2       0.53      0.15      0.24       171
+           3       0.06      0.40      0.11        10
+
+    accuracy                           0.13       358
+   macro avg       0.35      0.32      0.12       358
+weighted avg       0.59      0.13      0.14       358
+
+class-wise
+[0.05761317 0.75       0.53061224 0.06451613]
+[0.7        0.01910828 0.15204678 0.4       ]
+[0.10646388 0.03726708 0.23636364 0.11111111]
+avg-out
+0.3506853856636243
+0.317788765970127
+0.12280142663677132
