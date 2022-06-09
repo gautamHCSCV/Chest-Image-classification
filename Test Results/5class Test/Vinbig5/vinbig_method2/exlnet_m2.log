@@ -1,0 +1,28 @@
+cuda:1
+model: exlnet
+defining exlnet
+labels + random file exists
+431
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+correct are 0.779
+              precision    recall  f1-score   support
+
+           0       0.79      0.99      0.88     10606
+           1       0.01      0.01      0.01       104
+           2       0.67      0.03      0.05      2067
+           3       0.00      0.00      0.00       190
+           4       0.69      0.23      0.35       803
+
+    accuracy                           0.78     13770
+   macro avg       0.43      0.25      0.26     13770
+weighted avg       0.75      0.78      0.70     13770
+
+class-wise
+[0.78723244 0.00952381 0.67073171 0.         0.69029851]
+[0.9883085  0.00961538 0.02660861 0.         0.23038605]
+[0.87638477 0.00956938 0.0511866  0.         0.34547152]
+avg-out
+0.431557293782982
+0.2509837106107087
+0.25652245297470966
