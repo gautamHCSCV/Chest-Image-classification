@@ -1,0 +1,30 @@
+cuda:7
+model: squeezenet
+defining squeezenet
+labels + random file exists
+431
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.763
+              precision    recall  f1-score   support
+
+           0       0.80      0.96      0.87     10606
+           1       0.04      0.11      0.06       110
+           2       0.53      0.08      0.14      2075
+           3       0.22      0.09      0.13       204
+           4       0.47      0.21      0.29       775
+
+    accuracy                           0.76     13770
+   macro avg       0.41      0.29      0.30     13770
+weighted avg       0.72      0.76      0.71     13770
+
+class-wise
+[0.7976256  0.03947368 0.52698413 0.22352941 0.46685879]
+[0.95653404 0.10909091 0.08       0.09313725 0.20903226]
+[0.8698821  0.05797101 0.13891213 0.13148789 0.28877005]
+avg-out
+0.410894322416307
+0.28955889187894845
+0.29740463837670544

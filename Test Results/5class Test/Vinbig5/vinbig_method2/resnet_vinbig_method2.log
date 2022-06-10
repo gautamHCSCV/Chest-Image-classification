@@ -1,0 +1,30 @@
+cuda:6
+model: resnet
+defining resnet
+labels + random file exists
+431
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.755
+              precision    recall  f1-score   support
+
+           0       0.79      0.95      0.86     10606
+           1       0.03      0.05      0.04       103
+           2       0.60      0.04      0.07      2069
+           3       0.10      0.07      0.09       200
+           4       0.36      0.26      0.30       792
+
+    accuracy                           0.76     13770
+   macro avg       0.38      0.27      0.27     13770
+weighted avg       0.72      0.76      0.70     13770
+
+class-wise
+[0.79134661 0.03030303 0.59558824 0.1048951  0.3556338 ]
+[0.95191401 0.04854369 0.03914935 0.075      0.25505051]
+[0.86423558 0.03731343 0.07346939 0.08746356 0.29705882]
+avg-out
+0.37555335587205196
+0.2739315105637947
+0.27190815541432595
