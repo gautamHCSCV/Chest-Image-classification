@@ -1,0 +1,29 @@
+cuda:1
+model: shufflenet
+defining shufflenet
+creating test_vinbig file
+creating test_vinbig
+96
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.489
+              precision    recall  f1-score   support
+
+           0       0.06      0.53      0.10       109
+           1       0.86      0.41      0.55      2073
+           2       0.56      0.67      0.61       878
+
+    accuracy                           0.49      3060
+   macro avg       0.49      0.54      0.42      3060
+weighted avg       0.75      0.49      0.56      3060
+
+class-wise
+[0.05642023 0.86164802 0.564347  ]
+[0.53211009 0.40858659 0.67425968]
+[0.10202287 0.55431937 0.61442657]
+avg-out
+0.4941384156266242
+0.5383187874401177
+0.4235896029065776

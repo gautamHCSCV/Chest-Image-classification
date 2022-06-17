@@ -1,0 +1,28 @@
+cuda:1
+model: mobilenetv3
+defining mobilenetv3
+labels file exists
+96
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.462
+              precision    recall  f1-score   support
+
+           0       0.05      0.40      0.10       104
+           1       0.97      0.28      0.44      2016
+           2       0.47      0.85      0.61       940
+
+    accuracy                           0.46      3060
+   macro avg       0.50      0.51      0.38      3060
+weighted avg       0.79      0.46      0.48      3060
+
+class-wise
+[0.05447471 0.97113752 0.47      ]
+[0.40384615 0.28373016 0.85      ]
+[0.096      0.43915547 0.60530303]
+avg-out
+0.4985374097978723
+0.5125254375254374
+0.38015283351751683
