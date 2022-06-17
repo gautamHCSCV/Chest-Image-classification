@@ -1,0 +1,28 @@
+cuda:1
+model: mobilenetv2
+defining mobilenetv2
+test_chexpert_labels.pkl exists
+3229
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.701
+              precision    recall  f1-score   support
+
+           0       0.40      0.57      0.47     18796
+           1       0.63      0.36      0.46     14615
+           2       0.82      0.81      0.82     69916
+
+    accuracy                           0.70    103327
+   macro avg       0.62      0.58      0.58    103327
+weighted avg       0.72      0.70      0.70    103327
+
+class-wise
+[0.40420314 0.63022317 0.8242372 ]
+[0.56996169 0.36325693 0.80635334]
+[0.47298013 0.4608707  0.81519719]
+avg-out
+0.6195545024962956
+0.5798573200276654
+0.5830160082573982

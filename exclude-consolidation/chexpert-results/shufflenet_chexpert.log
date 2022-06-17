@@ -1,0 +1,28 @@
+cuda:0
+model: shufflenet
+defining shufflenet
+creating test_chexpert_labels.pkl
+3229
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.710
+              precision    recall  f1-score   support
+
+           0       0.41      0.62      0.50     18869
+           1       0.66      0.35      0.46     14113
+           2       0.84      0.81      0.82     70345
+
+    accuracy                           0.71    103327
+   macro avg       0.64      0.59      0.59    103327
+weighted avg       0.74      0.71      0.71    103327
+
+class-wise
+[0.41492441 0.66364006 0.83683258]
+[0.61529493 0.34698505 0.80854361]
+[0.49562433 0.45570445 0.82244491]
+avg-out
+0.6384656843800746
+0.5902745279817462
+0.5912578961035847

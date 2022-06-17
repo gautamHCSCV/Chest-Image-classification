@@ -1,0 +1,28 @@
+cuda:3
+model: resnet
+defining resnet
+test_chexpert_labels.pkl exists
+3229
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+/usr/lib/python3/dist-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+correct are 0.726
+              precision    recall  f1-score   support
+
+           0       0.43      0.50      0.46     17814
+           1       0.71      0.23      0.34     12952
+           2       0.81      0.87      0.84     72561
+
+    accuracy                           0.73    103327
+   macro avg       0.65      0.53      0.55    103327
+weighted avg       0.73      0.73      0.71    103327
+
+class-wise
+[0.42939871 0.70575591 0.80563136]
+[0.49949478 0.22815009 0.87066055]
+[0.46180195 0.34482759 0.8368846 ]
+avg-out
+0.646928659329673
+0.5327684732379699
+0.5478380458246517
