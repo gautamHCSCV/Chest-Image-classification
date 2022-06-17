@@ -1,0 +1,26 @@
+cuda:2
+model: exlnet
+defining exlnet
+test_chexpert_labels.pkl exists
+3229
+=> loading checkpoint
+total_trainable_parameters are : 0.0M
+correct are 0.744
+              precision    recall  f1-score   support
+
+           0       0.44      0.28      0.35     16342
+           1       0.62      0.13      0.21     12150
+           2       0.78      0.94      0.86     74835
+
+    accuracy                           0.74    103327
+   macro avg       0.62      0.45      0.47    103327
+weighted avg       0.71      0.74      0.70    103327
+
+class-wise
+[0.44181178 0.62171838 0.78212482]
+[0.28411455 0.12864198 0.94379635]
+[0.34583442 0.21317512 0.85538849]
+avg-out
+0.6152183267625743
+0.45218429291515827
+0.47146601107731345
