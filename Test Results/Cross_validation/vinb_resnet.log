@@ -1,0 +1,40 @@
+NIH DATASET
+112120
+{'abnormal': 0, 'normal': 1}
+Test Loss is 1.017163670675439
+Test Accuracy is 0.6056903317873706
+(0.5963307129820711, 0.8282003280263747, 0.6933949178872615, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.63      0.35      0.45     51759
+      normal       0.60      0.83      0.69     60361
+
+    accuracy                           0.61    112120
+   macro avg       0.61      0.59      0.57    112120
+weighted avg       0.61      0.61      0.58    112120
+
+
+ classwise accuracy
+[0.34620066 0.82820033]
+AUROC: 0.6529538542047879
+
+
+STANFORD DATASET
+223414
+{'abnormal': 0, 'normal': 1}
+Test Loss is 1.1119658422956504
+Test Accuracy is 0.47062851925125554
+(0.1317155981625724, 0.766140923104419, 0.22478582618328163, None)
+              precision    recall  f1-score   support
+
+    abnormal       0.94      0.44      0.60    201033
+      normal       0.13      0.77      0.22     22381
+
+    accuracy                           0.47    223414
+   macro avg       0.54      0.60      0.41    223414
+weighted avg       0.86      0.47      0.56    223414
+
+
+ classwise accuracy
+[0.43772913 0.76614092]
+AUROC: 0.6601536311899577
