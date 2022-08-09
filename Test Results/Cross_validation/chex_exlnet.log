@@ -2,7 +2,7 @@ NIH DATASET
 112120
 {'abnormal': 0, 'normal': 1}
 
-Exlnet without depthwise-conv layers.
+Exlnet 
 
 Test Loss is 0.9444587933434532
 Test Accuracy is 0.5274348911880128
