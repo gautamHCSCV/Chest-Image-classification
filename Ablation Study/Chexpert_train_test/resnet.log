@@ -1,0 +1,327 @@
+Counter({3: 76899, 0: 29720, 1: 23385, 4: 16974, 2: 12983})
+159961
+Epoch 0/29
+-------------------------
+Loss after 31968 examples: 1.080
+Loss after 63968 examples: 1.007
+Loss after 95968 examples: 1.129
+Train Accuracy tensor(0.5355, dtype=torch.float64)
+Validation Loss is 4.012167633321551
+Validation Accuracy is 1.901888888888889
+
+One of the best validation accuracy found.
+
+Epoch 1/29
+-------------------------
+Loss after 127968 examples: 1.259
+Loss after 159968 examples: 1.282
+Loss after 191968 examples: 1.344
+Loss after 223968 examples: 1.028
+Train Accuracy tensor(0.5550, dtype=torch.float64)
+Validation Loss is 3.9492363590465653
+Validation Accuracy is 1.9537777777777778
+
+One of the best validation accuracy found.
+
+Epoch 2/29
+-------------------------
+Loss after 255968 examples: 1.040
+Loss after 287968 examples: 1.435
+Loss after 319968 examples: 1.163
+Loss after 351968 examples: 0.970
+Train Accuracy tensor(0.5640, dtype=torch.float64)
+Validation Loss is 3.853815552724732
+Validation Accuracy is 1.9762222222222223
+
+One of the best validation accuracy found.
+
+Epoch 3/29
+-------------------------
+Loss after 383968 examples: 1.405
+Loss after 415968 examples: 1.539
+Loss after 447968 examples: 1.151
+Loss after 479968 examples: 1.282
+Train Accuracy tensor(0.5691, dtype=torch.float64)
+Validation Loss is 3.8630843774875006
+Validation Accuracy is 1.9866666666666668
+
+One of the best validation accuracy found.
+
+Epoch 4/29
+-------------------------
+Loss after 511968 examples: 1.377
+Loss after 543968 examples: 1.252
+Loss after 575968 examples: 0.952
+Train Accuracy tensor(0.5746, dtype=torch.float64)
+Validation Loss is 3.979789918793572
+Validation Accuracy is 1.9297777777777778
+
+Epoch 5/29
+-------------------------
+Loss after 607968 examples: 0.901
+Loss after 639968 examples: 0.862
+Loss after 671968 examples: 1.050
+Loss after 703968 examples: 0.943
+Train Accuracy tensor(0.5787, dtype=torch.float64)
+Validation Loss is 3.793620421197679
+Validation Accuracy is 2.004
+
+One of the best validation accuracy found.
+
+Epoch 6/29
+-------------------------
+Loss after 735968 examples: 0.878
+Loss after 767968 examples: 1.021
+Loss after 799968 examples: 1.230
+Loss after 831968 examples: 1.200
+Train Accuracy tensor(0.5813, dtype=torch.float64)
+Validation Loss is 3.7668858674698407
+Validation Accuracy is 2.0083333333333333
+
+One of the best validation accuracy found.
+
+Epoch 7/29
+-------------------------
+Loss after 863968 examples: 1.177
+Loss after 895968 examples: 0.824
+Loss after 927968 examples: 1.063
+Loss after 959968 examples: 0.976
+Train Accuracy tensor(0.5845, dtype=torch.float64)
+Validation Loss is 3.780610582497385
+Validation Accuracy is 2.0060000000000002
+
+Epoch 8/29
+-------------------------
+Loss after 991968 examples: 1.084
+Loss after 1023968 examples: 1.111
+Loss after 1055968 examples: 1.061
+Train Accuracy tensor(0.5890, dtype=torch.float64)
+Validation Loss is 3.779759342385663
+Validation Accuracy is 1.9951111111111113
+
+Epoch 9/29
+-------------------------
+Loss after 1087968 examples: 1.018
+Loss after 1119968 examples: 1.114
+Loss after 1151968 examples: 1.029
+Loss after 1183968 examples: 1.157
+Train Accuracy tensor(0.5925, dtype=torch.float64)
+Validation Loss is 3.7721936169928973
+Validation Accuracy is 2.006888888888889
+
+Epoch 10/29
+-------------------------
+Loss after 1215968 examples: 1.103
+Loss after 1247968 examples: 0.998
+Loss after 1279968 examples: 1.000
+Loss after 1311968 examples: 1.224
+Train Accuracy tensor(0.5945, dtype=torch.float64)
+Validation Loss is 3.783456885430548
+Validation Accuracy is 2.011
+
+One of the best validation accuracy found.
+
+Epoch 11/29
+-------------------------
+Loss after 1343968 examples: 0.969
+Loss after 1375968 examples: 1.034
+Loss after 1407968 examples: 1.109
+Loss after 1439968 examples: 0.997
+Train Accuracy tensor(0.5993, dtype=torch.float64)
+Validation Loss is 3.8310553099711737
+Validation Accuracy is 1.992
+
+Epoch 12/29
+-------------------------
+Loss after 1471968 examples: 1.080
+Loss after 1503968 examples: 0.933
+Loss after 1535968 examples: 0.953
+Train Accuracy tensor(0.6038, dtype=torch.float64)
+Validation Loss is 3.889910303738382
+Validation Accuracy is 1.9572222222222224
+
+Epoch 13/29
+-------------------------
+Loss after 1567968 examples: 0.830
+Loss after 1599968 examples: 0.949
+Loss after 1631968 examples: 0.956
+Loss after 1663968 examples: 1.120
+Train Accuracy tensor(0.6102, dtype=torch.float64)
+Validation Loss is 3.8901702761914994
+Validation Accuracy is 1.9737777777777779
+
+Epoch 14/29
+-------------------------
+Loss after 1695968 examples: 1.122
+Loss after 1727968 examples: 1.191
+Loss after 1759968 examples: 1.126
+Loss after 1791968 examples: 0.966
+Train Accuracy tensor(0.6163, dtype=torch.float64)
+Validation Loss is 3.9126516288253996
+Validation Accuracy is 1.9544444444444444
+
+Epoch 15/29
+-------------------------
+Loss after 1823968 examples: 0.967
+Loss after 1855968 examples: 0.653
+Loss after 1887968 examples: 0.819
+Loss after 1919968 examples: 0.860
+Train Accuracy tensor(0.6244, dtype=torch.float64)
+Validation Loss is 3.99208302254147
+Validation Accuracy is 1.964777777777778
+
+Epoch 16/29
+-------------------------
+Loss after 1951968 examples: 0.872
+Loss after 1983968 examples: 0.923
+Loss after 2015968 examples: 1.069
+Train Accuracy tensor(0.6341, dtype=torch.float64)
+Validation Loss is 4.157274639566739
+Validation Accuracy is 1.9105555555555556
+
+Epoch 17/29
+-------------------------
+Loss after 2047968 examples: 1.180
+Loss after 2079968 examples: 0.808
+Loss after 2111968 examples: 0.778
+Loss after 2143968 examples: 1.040
+Train Accuracy tensor(0.6440, dtype=torch.float64)
+Validation Loss is 4.443021465573046
+Validation Accuracy is 1.8635555555555556
+
+Epoch 18/29
+-------------------------
+Loss after 2175968 examples: 0.744
+Loss after 2207968 examples: 0.679
+Loss after 2239968 examples: 0.848
+Loss after 2271968 examples: 0.750
+Train Accuracy tensor(0.6560, dtype=torch.float64)
+Validation Loss is 4.638823766152064
+Validation Accuracy is 1.786
+
+Epoch 19/29
+-------------------------
+Loss after 2303968 examples: 0.897
+Loss after 2335968 examples: 0.855
+Loss after 2367968 examples: 0.724
+Loss after 2399968 examples: 0.877
+Train Accuracy tensor(0.6674, dtype=torch.float64)
+Validation Loss is 4.751222953637441
+Validation Accuracy is 1.8226666666666667
+
+Epoch 20/29
+-------------------------
+Loss after 2431968 examples: 0.938
+Loss after 2463968 examples: 0.755
+Loss after 2495968 examples: 0.797
+Train Accuracy tensor(0.6793, dtype=torch.float64)
+Validation Loss is 5.042044185678164
+Validation Accuracy is 1.8273333333333335
+
+Epoch 21/29
+-------------------------
+Loss after 2527968 examples: 0.512
+Loss after 2559968 examples: 0.678
+Loss after 2591968 examples: 1.074
+Loss after 2623968 examples: 0.872
+Train Accuracy tensor(0.6893, dtype=torch.float64)
+Validation Loss is 5.302012243615256
+Validation Accuracy is 1.7743333333333333
+
+Epoch 22/29
+-------------------------
+Loss after 2655968 examples: 0.772
+Loss after 2687968 examples: 0.544
+Loss after 2719968 examples: 0.762
+Loss after 2751968 examples: 0.806
+Train Accuracy tensor(0.6998, dtype=torch.float64)
+Validation Loss is 5.71049406753646
+Validation Accuracy is 1.6534444444444445
+
+Epoch 23/29
+-------------------------
+Loss after 2783968 examples: 0.506
+Loss after 2815968 examples: 0.691
+Loss after 2847968 examples: 0.506
+Loss after 2879968 examples: 0.814
+Train Accuracy tensor(0.7070, dtype=torch.float64)
+Validation Loss is 5.952628203325801
+Validation Accuracy is 1.6800000000000002
+
+Epoch 24/29
+-------------------------
+Loss after 2911968 examples: 0.447
+Loss after 2943968 examples: 0.601
+Loss after 2975968 examples: 0.727
+Train Accuracy tensor(0.7157, dtype=torch.float64)
+Validation Loss is 6.123328157954746
+Validation Accuracy is 1.6565555555555556
+
+Epoch 25/29
+-------------------------
+Loss after 3007968 examples: 0.568
+Loss after 3039968 examples: 0.573
+Loss after 3071968 examples: 0.740
+Loss after 3103968 examples: 0.488
+Train Accuracy tensor(0.7225, dtype=torch.float64)
+Validation Loss is 6.626826382027732
+Validation Accuracy is 1.5492222222222223
+
+Epoch 26/29
+-------------------------
+Loss after 3135968 examples: 0.536
+Loss after 3167968 examples: 0.623
+Loss after 3199968 examples: 0.536
+Loss after 3231968 examples: 0.448
+Train Accuracy tensor(0.7286, dtype=torch.float64)
+Validation Loss is 6.774048000600603
+Validation Accuracy is 1.6593333333333333
+
+Epoch 27/29
+-------------------------
+Loss after 3263968 examples: 0.855
+Loss after 3295968 examples: 0.479
+Loss after 3327968 examples: 0.649
+Loss after 3359968 examples: 0.645
+Train Accuracy tensor(0.7345, dtype=torch.float64)
+Validation Loss is 6.7515167216195
+Validation Accuracy is 1.543777777777778
+
+Epoch 28/29
+-------------------------
+Loss after 3391968 examples: 0.662
+Loss after 3423968 examples: 0.464
+Loss after 3455968 examples: 0.789
+Train Accuracy tensor(0.7415, dtype=torch.float64)
+Validation Loss is 7.5627499946488275
+Validation Accuracy is 1.5310000000000001
+
+Epoch 29/29
+-------------------------
+Loss after 3487968 examples: 0.393
+Loss after 3519968 examples: 0.388
+Loss after 3551968 examples: 0.715
+Loss after 3583968 examples: 0.559
+Train Accuracy tensor(0.7460, dtype=torch.float64)
+Validation Loss is 7.576006875250075
+Validation Accuracy is 1.5495555555555556
+
+Training complete in 403m 53s
+Test Loss is 0.6316150457859578
+Test Accuracy is 0.13164949452537064
+(array([0.19435976, 0.29521277, 0.05442177, 0.55274343, 0.63944857]), array([0.15389258, 0.26449563, 0.03174603, 0.65319635, 0.63607595]), array([0.17177501, 0.27901131, 0.04010025, 0.5987861 , 0.6377578 ]), array([1657, 1259,  756, 4380,  948]))
+
+AUROC:
+0.6682481648904963
+              precision    recall  f1-score   support
+
+           0       0.19      0.15      0.17      1657
+           1       0.30      0.26      0.28      1259
+           2       0.05      0.03      0.04       756
+           3       0.55      0.65      0.60      4380
+           4       0.64      0.64      0.64       948
+
+    accuracy                           0.45      9000
+   macro avg       0.35      0.35      0.35      9000
+weighted avg       0.42      0.45      0.43      9000
+
